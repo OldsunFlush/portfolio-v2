@@ -1,0 +1,162 @@
+/* ==================================================
+ * Title styles
+ ================================================= */
+
+.title,
+.subtitle {
+    text-align: center;
+}
+
+.title-container {
+    width: 100%;
+    text-align: center;
+}
+.title-section {
+    display: inline-block;
+    font-family: @fontTitle;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 4rem;
+    padding: 1.4rem 0 1.2rem;
+    .border-box();
+}
+
+.subtitle {
+    font-family: @fontContent;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    padding: 4.6rem 0 9.6rem;
+}
+
+/* Sections
+ ================================================= */
+
+.title-home {
+    //float: right;
+    //width: 460px;
+    padding: 8% 0;
+    text-align: center;
+    
+    h1 {
+        margin: 0;
+        padding: .5rem 1.8rem;
+        display: inline-block;
+        color: #fff;
+        background-color: @color-primary;
+        .box-shadow(0 .5rem 1rem rgba(0, 0, 0, .35));
+        .border-box();
+    }
+    h3 {
+        //float: right;
+        //width: 100%;
+        display: block;
+        margin: 1.2rem 0;
+        font-size: 1.6rem;
+        font-weight: 400;
+        font-style: italic;
+        color: #fff;
+    }
+}
+
+.title-about {
+    color: #fff;
+    border-top: .3rem solid @color-primary;
+    border-bottom: .3rem solid @color-primary;
+}
+.subtitle-about {
+    color: @color-secondary;
+}
+
+.title-works {
+    color: @color-primary;
+    border-top: .3rem solid @color-tertiary;
+    border-bottom: .3rem solid @color-tertiary;
+}
+.subtitle-works {
+    color: @color-tertiary;
+}
+
+.title-skills {
+    color: #fff;
+    border-top: .3rem solid @color-primary;
+    border-bottom: .3rem solid @color-primary;
+}
+.subtitle-skills {
+    color: @color-primary;
+}
+
+.title-contact {
+    color: @color-primary;
+    border-top: .3rem solid #fff;
+    border-bottom: .3rem solid #fff;
+}
+.subtitle-contact {
+    color: #fff;
+}
+
+@media (max-width: @tabletMin) {
+    .title-home {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        
+        h1 {
+            width: 29rem;
+            display: inline-block;
+            font-size: 7.7rem;
+        }
+    }
+}
+@media (max-width: @smartphone) {
+    .title-home {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        padding: 12% 0;
+        
+        h1 {
+            width: 29rem;
+            display: inline-block;
+            font-size: 4.8rem;
+        }
+    }
+    
+    .title-section {
+        font-size: 3.2rem;
+        line-height: 2.5rem;
+
+        &.title-map {
+            padding: .3rem 0 1.4rem;
+            line-height: 2.9rem;
+        }
+    }
+    
+    .subtitle {
+        padding: 4.2rem 0;
+        line-height: 1.8rem;
+    }
+}
+@media (max-width: @smartphone) and (orientation: landscape) {
+    .title-home {
+        padding: 6% 0;
+    }
+}
+@media (max-width: @smartphoneLowRes) {
+    .title-home {
+        padding: 10% 0;
+        
+        h1 {
+            width: 24.5rem;
+            font-size: 4.2rem;
+        }
+    }
+    .title-section {
+        line-height: 2.9rem;
+    }
+}
+@media (max-width: @smartphoneLowRes) and (orientation: landscape) {
+    .title-home {
+        padding: 5% 0;
+    }
+}

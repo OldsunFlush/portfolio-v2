@@ -1,0 +1,163 @@
+/* ==================================================
+ * Button styles
+ ================================================= */
+
+input[type=button],
+input[type=submit],
+.btn {
+    padding: .8rem 1.1rem;
+    display: inline-block;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    .transition(all .2s);
+
+    /* &:focus,
+    &:active,
+    &:hover {
+        .transition(all .2s);
+    } */
+
+    &[disabled],
+    &:disabled {
+        opacity: .5;
+        cursor: default;
+        .transition(all .2s);
+    }
+}
+
+.btn-primary,
+.btn-secondary {
+    font-weight: 700;
+    text-transform: uppercase;
+    .border-radius(.1rem);
+}
+.btn-primary{
+    color: #fff;
+    border: .2rem solid #fff;
+
+    &:focus,
+    &:active,
+    &:hover {
+        color: @color-bg-darker;
+        background-color: #fff;
+    }
+}
+.btn-secondary{
+    color: @color-primary;
+    border: .2rem solid @color-primary;
+
+    &:focus,
+    &:active,
+    &:hover {
+        color: #fff;
+        background-color: @color-primary;
+    }
+}
+
+/* Custom buttons
+ ================================================= */
+
+.btn-up {
+    position: fixed;
+    bottom: 2.7rem;
+    right: 0;
+    width: 5rem;
+    height: 5rem;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    .opacity(0);
+
+    &:before {
+        position: absolute;
+        content: '';
+        top: 1.2rem;
+        left: 1.2rem;
+        width: 2.4rem;
+        height: 2.4rem;
+        background: url('../images/up-arrow.svg') no-repeat;
+        .rotate(-90deg);
+    }
+
+    &.is-visible {
+        .opacity(.5);
+    }
+    &.is-visible:hover {
+        .opacity(1);
+    }
+}
+
+.btn-steam {
+    margin: 0 auto;
+    padding: .6rem 3.2rem;
+    font-size: 1.4rem;
+    color: @color-steam-btn;
+    text-decoration: none;
+    letter-spacing: 0;
+    .gradient-vertical(@start-color: #799905, @end-color: #546a04, @start-percent: 5%, @end-percent: 95%);
+    border: .2rem solid @color-steam-btn-border;
+    .border-radius(.3rem);
+    .text-shadow(-.1rem -.1rem 0 rgba( 0, 0, 0, 0.1 ));
+    .border-box();
+
+    &:hover {
+        color: #fff;
+        .gradient-vertical(@start-color: #a4d007, @end-color: #6b8705, @start-percent: 5%, @end-percent: 95%);
+    }
+}
+
+.btn-cv {
+    position: relative;
+    margin: 0 auto -.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: #fff;
+    text-transform: uppercase;
+    overflow: hidden;
+    .transition(all .2s);
+
+    span {
+        position: relative;
+        display: block;
+        .translate3d(0, 0, 0);
+        .transition(all .2s);
+
+        &:before {
+            position: absolute;
+            content: url('../images/icon-dl.svg');
+            top: 0;
+            left: 50%;
+            margin-left: -1.2rem;
+            width: 2.4rem;
+            .translate3d(0, -4.4rem, 0);
+            .transition(all .2s);
+        }
+    }
+
+    &:hover {
+        background-color: darken(@color-bg-darker, 3%);
+
+        span {
+            color: #fff;
+            .translateY(4.4rem);
+
+            &:before {
+                .translateY(-4.4rem);
+            }
+        }
+
+    }
+}
+
+.btn-gallery {
+    margin: 6.6rem auto 0;
+}
+
+@media (max-width: @smartphoneLowRes) {
+    .btn-up {
+        display: none;
+    }
+}

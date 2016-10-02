@@ -1,0 +1,157 @@
+Changelog :
+
+v2.6.1a ()
+- Replaces all translateX-Y for translate3d animations
+- Changes contact email adress
+
+/* ------------------------------------------
+   Incoming updates
+------------------------------------------ */
+
+[v2.7a]
+- Adds a JS preloader
+- Adds jquery.cookie.js instead of a PHP alternative
+- Removes fancybox.js for workLoad-lite on the "Works" section
+
+[v2.8b]
+- Adds the complete "Options" menu
+- End of alpha, beta version release
+
+[v2.9]
+- Adds the full "Gallery" page with workLoad.js or Elastic Grid
+- End of beta, official release
+
+/* ------------------------------------------
+   Previous updates
+------------------------------------------ */
+
+[v2.6a] (18-07-16)
+- Adds a custom page for the ChangeLog
+- Adds a custom page for the Legal Notice
+- Updates jQuery to the 3.x version
+- Hides the scroll arrows on mobile
+- Fixes IE layout bugs
+
+v2.5.5a (17-07-16)
+- Includes the prefixer.less library for better browser compatibility
+- Converts 'em' and 'px' units into 'rem'
+- Adds progressive JPEGs for the "Home" and "Contact" sections
+- Fixes an hover state bug in the mobile menu
+- Fixes a print bug in the 404 page
+
+v2.5.4a (14-07-16)
+- Makes English the default language
+- Disables the resume link
+- Small responsive corrections and text updates
+
+v2.5.3a (23-03-16)
+- Changes mail animation
+- Changes site title size
+- Changes subtitles size and styles
+- Makes the header background darker on scroll
+- Deletes the "Full gallery" button
+
+v2.5.2a (21-03-16)
+- Reintroduces a preloader overlay with PaceJS
+- Adds Google Analytics codes
+- Makes header reduction smoother
+- Removes the "Please enable your JavaScript" message in preloader
+
+v2.5.1a (01-03-16)
+- Redefines update history and roadmap
+- Changes the PHP files structure for better maintenance and lisibility
+- Corrects meta texts
+- Disables the Apple web app capability
+
+[v2.5a] (26-02-16)
+- Enables a better file cache and compression for faster loading
+- Reinforces website security
+- Adds date informations in the change.log file
+- Adds blurred background images on large displays (> 1920px) and tablets (< 1024px)
+- Adds filters in the "Works" section
+- Changes the "Works" section overlay styles
+- Changes works list for a fluid grid
+- Disables the CSS preloader
+- Disables WOWJS transitions
+- Disables the cookie notice on smartphones
+
+v2.4.1a (18-02-16 - unknown before)
+- Adds a third line of works
+- Adds a custom color to the browser top bar (Android)
+- Activates the Behance link
+- Updates jQuery to 2.2.0 version
+
+[v2.4a]
+- Adds the change.log file link in the footer
+- Adds the "Settings" menu initial structure and transitions
+- Adds a ripple effect on "Skills" section
+- Makes the "Back to top" button appears on scroll and disappears on mobile
+- Fixes a bug where fancybox.js makes the body offset
+- Corrects responsive in footer and 404 page
+- Updates contents and animations
+
+v2.3.1a
+- Fixes a logo bug in Safari 5.1.7
+- Fixes a bug with the "Back to top" button moving up and down
+- Updates mixins et prefixes
+
+[v2.3a]
+- Adds a parallaxed background to the "Home" section
+- Removes backgrounds lines for a CSS pattern
+- Makes the cookie notice less intrusive
+- Fixes an overlay bug in the "Works" section.
+- Changes "send a mail" hover transitions
+- Changes the position of the "back to top" button
+- Removes some CSS transitions
+- Adds custom styles to the 404 page
+- Responsive corrections
+- General code optimization
+
+v2.2.1a
+- Adds the cookie notification
+- Adds a "Scroll to top" fixed button
+- Texts and works modifications
+- General code optimization
+
+[v2.2a]
+- Adds PHP multilingual support (FR, EN)
+
+v2.1.3a
+- Adds an "Error 404" message
+- PNG images optimization
+- Text corrections
+
+v2.1.2a
+- Imports the resume v2
+
+v2.1.1a
+- Changes the "Works" section overlay styles
+- General code optimization
+
+[v2.1a]
+- Libraries are now called from a CDN, with removal of locale dependencies (Font Awesome, jQuery, LESS)
+- Replaces the CSS responsive header overlay by jQuery, with removal of CSS "display" properties
+- Replaces the "Skills" and "Early Access" sections slide by jQuery, with removal of CSS "max-height" animations
+- Replaces the "Skills" icons by sprites
+- Custom fancybox.js styles
+- Prepares the removal of fancybox.js for workLoad.js
+- Changes the "Contact" section background image
+- Replaces the PNG map marker by a SVG one
+- Responsive corrections
+- Scripts improvements
+- General code optimization
+- Deletes some images, files and folders
+
+v2.0.1a
+- Adds an automatic less compiler (lessphp 0.4.0 -> lessc.inc.php)
+- Adds a "Please enable your JavaScript" message in preloader
+
+[v2.0a]
+- Second version alpha release (IE10+ compatible, responsive, Retina-ready, gzip and cache enabled)
+
+/* ------------------------------------------
+   Older versions
+------------------------------------------ */
+
+v1.7.2 (and less)
+-> Check the 1st version changelog file
