@@ -1,6 +1,6 @@
 Changelog :
 
-v2.6.1a ()
+v2.6.1a (19-07-16)
 - Replaces all translateX-Y for translate3d animations
 - Changes contact email adress
 

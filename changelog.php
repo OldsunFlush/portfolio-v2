@@ -6,7 +6,7 @@
             <h2 class="current-version">Current version :</h2>
             <div class="version">
                 <h3>2.6.1a</h3>
-                <h4><em></em></h4>
+                <h4><em>19-07-16</em></h4>
                 <ul>
                     <li>Replaces all translateX-Y for translate3d animations</li>
                     <li>Changes contact email adress</li>
