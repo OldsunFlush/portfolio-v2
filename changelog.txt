@@ -1,12 +1,16 @@
 Changelog :
 
-v2.6.1a (19-07-16)
-- Replaces all translateX-Y for translate3d animations
-- Changes contact email adress
+v2.6.2a (26-10-16)
+- Disables the preloader
+- Disables tappable phone numbers on mobile
+- Adds hover animations on all contact options
 
 /* ------------------------------------------
    Incoming updates
 ------------------------------------------ */
+
+v2.6.3
+- Loads fonts progressively rather than making them pop in (optional)
 
 [v2.7a]
 - Adds a JS preloader
@@ -24,6 +28,10 @@ v2.6.1a (19-07-16)
 /* ------------------------------------------
    Previous updates
 ------------------------------------------ */
+
+v2.6.1a (19-07-16)
+- Replaces all translateX-Y for translate3d animations
+- Changes contact email adress
 
 [v2.6a] (18-07-16)
 - Adds a custom page for the ChangeLog

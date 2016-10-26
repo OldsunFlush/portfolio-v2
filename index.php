@@ -3,16 +3,16 @@
     require_once('includes/header.inc.php');
 ?>
        
-        <!-- Preloader -->
+        <!-- Preloader
         <div class="preloader is-ninja">
             <div class="preloader-container">
                 <div class="ball-scale">
                     <div></div>
                 </div>
-                <p><?php echo $lang['PRELOADER_LOADING']; ?></p><br>
-                <p><?php echo $lang['PRELOADER_NOTICE']; ?></p>
+                <p><?php //echo $lang['PRELOADER_LOADING']; ?></p><br>
+                <p><?php //echo $lang['PRELOADER_NOTICE']; ?></p>
             </div>
-        </div>
+        </div> -->
 
         <a href="#home" class="btn btn-up"></a>
 
@@ -324,16 +324,26 @@
                 <h3 class="subtitle subtitle-contact"><?php echo $lang['CONTACT_SUBTITLE']; ?></h3>
                 <ul class="list list-getInTouch">
                     <li class="list list-item list-item-contact contact-phone">
-                        <i class="fa fa-mobile fa-4x"></i>
-                        <p>+33(0)6 76 73 85 10</p>
+                        <a href="tel:0676738510" title="<?php echo $lang['PHONE_TITLE']; ?>" target="_blank">
+                            <div class="contact-overlay">
+                                <i class="fa fa-phone fa-2x"></i>
+                            </div>
+                            <i class="fa fa-mobile fa-4x"></i>
+                            <p>+33(0)6 76 73 85 10</p>
+                        </a>
                     </li>
                     <li class="list list-item list-item-contact contact-skype">
-                        <i class="fa fa-skype fa-4x"></i>
-                        <p>pierre.prezelin01</p>
+                        <a href="tel:0676738510" title="<?php echo $lang['SKYPE_TITLE']; ?>" target="_blank">
+                            <div class="contact-overlay">
+                                <i class="fa fa-phone fa-2x"></i>
+                            </div>
+                            <i class="fa fa-skype fa-4x"></i>
+                            <p>pierre.prezelin01</p>
+                        </a>
                     </li>
                     <li class="list list-item list-item-contact contact-mail">
                         <a href="mailto:pierre.prezelin01@gmail.com" title="<?php echo $lang['MAIL_TITLE']; ?>" target="_blank">
-                            <div class="mail-overlay">
+                            <div class="contact-overlay">
                                 <i class="fa fa-paper-plane fa-2x"></i>
                             </div>
                             <i class="fa fa-envelope fa-3x"></i>

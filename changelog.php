@@ -5,15 +5,22 @@
             <h1>ChangeLog<span><?php echo $lang['LANGUAGE_NOTICE_ENGLISH']; ?></span></span></h1>
             <h2 class="current-version">Current version :</h2>
             <div class="version">
-                <h3>2.6.1a</h3>
-                <h4><em>19-07-16</em></h4>
+                <h3>2.6.2a</h3>
+                <h4><em>26-10-16</em></h4>
                 <ul>
-                    <li>Replaces all translateX-Y for translate3d animations</li>
-                    <li>Changes contact email adress</li>
+                    <li>Disables the preloader</li>
+                    <li>Disables tappable phone numbers on mobile</li>
+                    <li>Adds hover animations on all contact options</li>
                 </ul>
             </div>
             
             <h2>Incoming updates :</h2>
+            <div class="version">
+                <h3>2.6.3</h3>
+                <ul>
+                    <li>Loads fonts progressively rather than making them pop in (optional)</li>
+                </ul>
+            </div>
             <div class="version">
                 <h3>[2.7a]</h3>
                 <ul>
@@ -38,6 +45,14 @@
             </div>
             
             <h2>Previous updates :</h2>
+            <div class="version">
+                <h3>2.6.1a</h3>
+                <h4><em>19-07-16</em></h4>
+                <ul>
+                    <li>Replaces all translateX-Y for translate3d animations</li>
+                    <li>Changes contact email adress</li>
+                </ul>
+            </div>
             <div class="version">
                 <h3>[2.6a]</h3>
                 <h4><em>18-07-16</em></h4>

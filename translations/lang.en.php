@@ -188,6 +188,8 @@ $lang['SKILLS_ENV_3'] = 'Linux';
 $lang['CONTACT_TITLE'] = 'Get in touch';
 $lang['CONTACT_SUBTITLE'] = 'If you\'d like to contact me, you’re in the right place';
 
+$lang['PHONE_TITLE'] = 'Call me';
+$lang['SKYPE_TITLE'] = 'Call me via Skype';
 $lang['MAIL_TITLE'] = 'Send me a mail';
 $lang['BEHANCE_TITLE'] = 'To my Behance page (New window)';
 $lang['LINKEDIN_TITLE'] = 'To my LinkedIn page (New window)';

@@ -1,13 +1,13 @@
 		<!-- Footer -->
 		<footer>
             <a href="#home" class="logo logo-main"><img src="images/logos/logo.svg" width="64" height="64" alt="<?php echo $lang['LOGO_ALT']; ?>"/></a>
-            <p>Copyright © 2016 - Pierre PRÉZELIN<br> <span>|</span> <a href="legalnotice.php" title="<?php echo $lang['LEGAL_NOTICE_TITLE']; ?>"><?php echo $lang['LEGAL_NOTICE']; ?></a> <span>|</span> <a href="changelog.php" title="ChangeLog">ChangeLog</a> <span>|</span> v2.6.1a</p>
+            <p>Copyright © 2016 - Pierre PRÉZELIN<br> <span>|</span> <a href="legalnotice.php" title="<?php echo $lang['LEGAL_NOTICE_TITLE']; ?>"><?php echo $lang['LEGAL_NOTICE']; ?></a> <span>|</span> <a href="changelog.php" title="ChangeLog">ChangeLog</a> <span>|</span> v2.6.2a</p>
 		</footer>
 
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
-		<script src="scripts/libs/pace/pace.js"></script>
+		<!--<script src="scripts/libs/pace/pace.js"></script>-->
 		<script src="https://use.fontawesome.com/7d795c1139.js"></script>
 		<!--<script src="scripts/libs/wow-1.1.2.min.js"></script>-->
 		<script src="scripts/libs/fancybox/fancybox-2.1.5.min.js"></script>

@@ -1040,7 +1040,7 @@ ul .list-works {
 .list-item-contact.contact-mail i {
   margin-top: .5rem;
 }
-.list-item-contact.contact-mail .mail-overlay {
+.list-item-contact .contact-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1052,22 +1052,22 @@ ul .list-works {
   transform: translate3d(0,-100%,0);
   transition: transform .2s ease;
 }
-.list-item-contact.contact-mail .mail-overlay i {
+.list-item-contact .contact-overlay i {
   -webkit-transform: translate3d(0,2.8rem,0);
   -ms-transform: translate3d(0,2.8rem,0);
   transform: translate3d(0,2.8rem,0);
   transition: transform .2s ease .2s;
 }
-.list-item-contact.contact-mail:hover .mail-overlay {
+.list-item-contact:hover .contact-overlay {
   -webkit-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
   transition: all .3s ease;
 }
-.list-item-contact.contact-mail:hover .mail-overlay i {
-  -webkit-transform: translate3d(0,2.8rem,0);
-  -ms-transform: translate3d(0,2.8rem,0);
-  transform: translate3d(0,2.8rem,0);
+.list-item-contact:hover .contact-overlay i {
+  -webkit-transform: translate3d(0,3rem,0);
+  -ms-transform: translate3d(0,3rem,0);
+  transform: translate3d(0,3rem,0);
   transition: all .2s ease .2s;
 }
 @media (max-width: 1140px) {
