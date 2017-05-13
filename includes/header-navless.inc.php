@@ -10,7 +10,6 @@
 		<meta name="keywords" content="pierre, prézelin, prezelin, portfolio, français, francais, french, student, web, design, designer, web design, webdesigner, developer, integrator, front-end, front, end, infographie, image, graphic, graphisme, audiovisual, audiovisuel, developpement, development, webdevelopment, multimedia, son, html, css, less, javascript, js, jquery, php, etudiant, bordeaux, france">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	    <meta name="apple-mobile-web-app-capable" content="no" />
-        <!--<meta name="apple-mobile-web-app-status-bar-style" content="black"/>-->
         <meta name="google-site-verification" content="WCKYq0ZKl-oMM13i5qFLCiVlX589nU1qhnuzDFxNodM" />
 
 		<!-- Icons -->
@@ -40,5 +39,6 @@
 
 		<!-- General stylesheets -->
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" rel="stylesheet" />
 	</head>
 	<body>

@@ -71,7 +71,7 @@ $lang['ABOUT_CV'] = 'Télécharger mon CV';
 
 // Works
 $lang['WORKS_TITLE'] = 'Travaux';
-$lang['WORKS_SUBTITLE'] = 'L\'endroit idéal si vous voulez quelques exemples de mes travaux. La galerie complète et les travaux de ces six derniers mois sont en cours d\'ajout.';
+$lang['WORKS_SUBTITLE'] = 'L\'endroit idéal si vous voulez quelques exemples de mes travaux. La galerie complète et les travaux de ces derniers mois sont en cours d\'ajout.';
 
 $lang['WORKS_FILTERS_ALL'] = 'Tous';
 $lang['WORKS_FILTERS_CATEGORY_1'] = 'Intégration & Développement Web';
@@ -100,9 +100,9 @@ $lang['WORKS_CYCLAD_SUBTITLE'] = '(dans le cadre d\'un stage à <a href="http://
 $lang['WORKS_CYCLAD_ALT'] = 'Cyclad (dans le cadre d\'un stage à RC2C)';
 $lang['WORKS_CYCLAD_LINK'] = 'Vers le site de Cyclad (Nouvelle fenêtre)';
 
-$lang['WORKS_CENTAURI_TITLE'] = 'Centauri Black';
-$lang['WORKS_CENTAURI_ALT'] = 'Centauri Black';
-$lang['WORKS_CENTAURI_DESC'] = 'Pochettes d\'album pour mon projet musical, Centauri Black (Synthwave).';
+$lang['WORKS_CENTAURI_TITLE'] = 'Centauri Vision';
+$lang['WORKS_CENTAURI_ALT'] = 'Centauri Vision';
+$lang['WORKS_CENTAURI_DESC'] = 'Pochettes d\'album pour mon projet musical, Centauri Vision (Synthwave).';
 $lang['WORKS_CENTAURI_LINK'] = 'Écouter !';
 
 $lang['WORKS_NEWREBORN_TITLE'] = 'New Reborn';
@@ -149,30 +149,26 @@ $lang['SKILLS_SUBTITLE'] = 'Je conserve ici tout ce que j\'apprends au fil du te
 $lang['SKILLS_WEB'] = 'Web';
 $lang['SKILLS_WEB_1'] = 'HTML5';
 $lang['SKILLS_WEB_2'] = 'CSS3 (responsive, mobile first, OOCSS)';
-$lang['SKILLS_WEB_3'] = 'JavaScript (jQuery)';
+$lang['SKILLS_WEB_3'] = 'JavaScript, jQuery';
 $lang['SKILLS_WEB_4'] = 'Préprocesseurs (Sass, LESS)';
-$lang['SKILLS_WEB_5'] = 'Bootstrap';
-$lang['SKILLS_WEB_6'] = 'WordPress';
-$lang['SKILLS_WEB_7'] = 'PHP, MySQL';
-$lang['SKILLS_WEB_8'] = 'Git';
+$lang['SKILLS_WEB_5'] = 'WordPress';
+$lang['SKILLS_WEB_6'] = 'Git';
 
 $lang['SKILLS_DESIGN'] = 'Design graphique';
 $lang['SKILLS_DESIGN_1'] = 'Photoshop';
 $lang['SKILLS_DESIGN_2'] = 'Illustrator';
 $lang['SKILLS_DESIGN_3'] = 'InDesign';
-$lang['SKILLS_DESIGN_4'] = '3DS Max, Cinema 4D';
+$lang['SKILLS_DESIGN_4'] = '3DS Max';
 
 $lang['SKILLS_AUDIOVISUAL'] = 'Audiovisuel';
 $lang['SKILLS_AUDIOVISUAL_1'] = 'Premiere Pro';
-$lang['SKILLS_AUDIOVISUAL_2'] = 'Final Cut';
-$lang['SKILLS_AUDIOVISUAL_3'] = 'After Effects';
-$lang['SKILLS_AUDIOVISUAL_4'] = 'DAW (Reaper, Pro Tools, FL Studio)';
+$lang['SKILLS_AUDIOVISUAL_2'] = 'After Effects';
+$lang['SKILLS_AUDIOVISUAL_3'] = 'DAW (Reaper, Pro Tools, FL Studio)';
 
 $lang['SKILLS_COM'] = 'Communication';
 $lang['SKILLS_COM_1'] = 'Référencement';
 $lang['SKILLS_COM_2'] = 'Méthodes agiles';
 $lang['SKILLS_COM_3'] = 'E-mailing';
-$lang['SKILLS_COM_4'] = 'Suite office';
 
 $lang['SKILLS_LANG'] = 'Langues';
 $lang['SKILLS_LANG_1'] = 'Français (langue maternelle)';

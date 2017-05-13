@@ -37,13 +37,13 @@
 		<!-- Fonts -->
         <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,700,800" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,400italic,700,700italic" rel="stylesheet" type="text/css">
-	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 		<!-- General stylesheets -->
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
         <link href="scripts/libs/pace/themes/pace.css" rel="stylesheet" type="text/css">
-		<link href="scripts/libs/fancybox/fancybox.css" rel="stylesheet" type="text/css">
-	    <link href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" rel="stylesheet" type="text/css">
+		<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" rel="stylesheet" />-->
+	    <link href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin="" rel="stylesheet"/>
 	</head>
 	<body>
         <!-- Header -->
