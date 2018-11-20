@@ -1,19 +1,18 @@
 Changelog :
 
-v2.6.3a (13-05-17)
-- Loads fonts progressively rather than making them pop in
-- Updates content
+[v2.7a] (20-11-18)
+- Tranfers assets to a new hosting service
+- Fixes a z-index bug on map
 - Updates assets
-- Disables fancybox.js
+- Updates the scroller animation for a more modern one
+- Updates the cookie to be GDPR compliant
+- Removes the PHP language cookie for a JS one
+- Removes fancybox.js for workload-lite on the "Works" section
+- Removes .htaccess configuration
 
 /* ------------------------------------------
    Incoming updates
 ------------------------------------------ */
-
-[v2.7a]
-- Adds a JS preloader
-- Adds jquery.cookie.js instead of a PHP alternative
-- Removes fancybox.js for workLoad-lite on the "Works" section
 
 [v2.8b]
 - Adds the complete "Options" menu
@@ -26,6 +25,12 @@ v2.6.3a (13-05-17)
 /* ------------------------------------------
    Previous updates
 ------------------------------------------ */
+
+v2.6.3a (13-05-17)
+- Loads fonts progressively rather than making them pop in
+- Updates content
+- Updates assets
+- Disables fancybox.js
 
 v2.6.2a (26-10-16)
 - Disables the preloader

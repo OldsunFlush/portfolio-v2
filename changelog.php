@@ -5,25 +5,23 @@
             <h1>ChangeLog<span><?php echo $lang['LANGUAGE_NOTICE_ENGLISH']; ?></span></span></h1>
             <h2 class="current-version">Current version :</h2>
             <div class="version">
-                <h3>2.6.3a</h3>
-                <h4><em>13-05-17</em></h4>
+                <h3>[2.7a]</h3>
+                <h4>
+                    <em>20-11-18</em>
+                </h4>
                 <ul>
-                    <li>Loads fonts progressively rather than making them pop in</li>
-                    <li>Updates content</li>
+                    <li>Tranfers assets to a new hosting service</li>
+                    <li>Fixes a z-index bug on map</li>
                     <li>Updates assets</li>
-                    <li>Disables fancybox.js</li>
+                    <li>Updates the scroller animation for a more modern one</li>
+                    <li>Updates the cookie to be GDPR compliant</li>
+                    <li>Removes the PHP language cookie for a JS one</li>
+                    <li>Removes fancybox.js for workload-lite on the "Works" section</li>
+                    <li>Removes .htaccess configuration</li>
                 </ul>
             </div>
             
             <h2>Incoming updates :</h2>
-            <div class="version">
-                <h3>[2.7a]</h3>
-                <ul>
-                    <li>Adds a JS preloader</li>
-                    <li>Adds jquery.cookie.js instead of a PHP alternative</li>
-                    <li>Removes fancybox.js for workLoad-lite on the "Works" section</li>
-                </ul>
-            </div>
             <div class="version">
                 <h3>[2.8b]</h3>
                 <ul>
@@ -40,6 +38,16 @@
             </div>
             
             <h2>Previous updates :</h2>
+            <div class="version">
+                <h3>2.6.3a</h3>
+                <h4><em>13-05-17</em></h4>
+                <ul>
+                    <li>Loads fonts progressively rather than making them pop in</li>
+                    <li>Updates content</li>
+                    <li>Updates assets</li>
+                    <li>Disables fancybox.js</li>
+                </ul>
+            </div>
             <div class="version">
                 <h3>2.6.2a</h3>
                 <h4><em>26-10-16</em></h4>

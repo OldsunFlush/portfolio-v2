@@ -10,7 +10,6 @@
 		<meta name="keywords" content="pierre, prézelin, prezelin, portfolio, français, francais, french, student, web, design, designer, web design, webdesigner, developer, integrator, front-end, front, end, infographie, image, graphic, graphisme, audiovisual, audiovisuel, developpement, development, webdevelopment, multimedia, son, html, css, less, javascript, js, jquery, php, etudiant, bordeaux, france">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	    <meta name="apple-mobile-web-app-capable" content="no" />
-        <!--<meta name="apple-mobile-web-app-status-bar-style" content="black"/>-->
         <meta name="google-site-verification" content="WCKYq0ZKl-oMM13i5qFLCiVlX589nU1qhnuzDFxNodM" />
 
 		<!-- Icons -->
@@ -41,9 +40,7 @@
 
 		<!-- General stylesheets -->
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
-        <link href="scripts/libs/pace/themes/pace.css" rel="stylesheet" type="text/css">
-		<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" rel="stylesheet" />-->
-	    <link href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin="" rel="stylesheet"/>
+	    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
 	</head>
 	<body>
         <!-- Header -->

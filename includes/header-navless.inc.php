@@ -39,6 +39,5 @@
 
 		<!-- General stylesheets -->
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" rel="stylesheet" />
 	</head>
 	<body>
