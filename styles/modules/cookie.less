@@ -4,14 +4,15 @@
 
 .cookie {
 	position: fixed;
-	bottom: 0;
-	left: 0;
+	z-index: 50;
+	bottom: 1.5rem;
+	left: 1.5rem;
 	width: 33%;
-	padding: 1.2rem 2%;
+	padding: 1.5rem 2rem;
 	display: inline-block;
 	color: #fff;
-	background-color: rgba(0, 0, 0, 0.3);
-	z-index: 50;
+	background-color: rgba(0, 0, 0, 0.33);
+	border-radius: .3rem;
 	box-sizing: border-box;
 
 	p {
@@ -31,6 +32,10 @@
 
 @media (max-width: @smartphone) {
 	.cookie {
-        display: none;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.66);
+		border-radius: 0;
     }
 }

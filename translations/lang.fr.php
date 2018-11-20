@@ -56,7 +56,7 @@ $lang['EARLY_ACCESS_CLOSE'] = 'Compris';
 
 // About
 $lang['ABOUT_TITLE'] = 'À propos';
-$lang['ABOUT_SUBTITLE'] = 'Vous trouverez ici plus d\'informations sur moi (l\'accès anticipé n\'est qu\'un clin d\'oeil à Steam)';
+$lang['ABOUT_SUBTITLE'] = 'Vous trouverez ici plus d\'informations sur moi (l\'accès anticipé n\'est qu\'un clin d\'oeil à Steam).';
 
 $lang['ABOUT_HELLO'] = 'Hi.';
 $lang['ABOUT_TEXT_1'] = 'Je suis Pierre Prézelin, intégrateur et webdesigner. Je travaille actuellement à HelloAsso (Bordeaux, France).';
@@ -71,7 +71,7 @@ $lang['ABOUT_CV'] = 'Télécharger mon CV';
 
 // Works
 $lang['WORKS_TITLE'] = 'Travaux';
-$lang['WORKS_SUBTITLE'] = 'L\'endroit idéal si vous voulez quelques exemples de mes travaux. La galerie complète et les travaux de ces derniers mois sont en cours d\'ajout.';
+$lang['WORKS_SUBTITLE'] = 'L\'endroit idéal si vous voulez quelques exemples de mes travaux.';
 
 $lang['WORKS_FILTERS_ALL'] = 'Tous';
 $lang['WORKS_FILTERS_CATEGORY_1'] = 'Intégration & Développement Web';

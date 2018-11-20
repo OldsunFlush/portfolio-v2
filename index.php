@@ -8,19 +8,15 @@
         <!-- Home -->
         <section class="section section-home is-parallaxed" id="home">
             <div class="overlay-pattern"></div>
-            <div class="section-home-inner">
-                <div class="title title-home">
-                    <h1><?php echo $lang['HOME_WELCOME_1']; ?></h1>
-                    <h3><?php echo $lang['HOME_WELCOME_2']; ?></h3>
-                </div>
+            <div class="title-home">
+                <h1><?php echo $lang['HOME_WELCOME_1']; ?></h1>
+                <h3><?php echo $lang['HOME_WELCOME_2']; ?></h3>
             </div>
             <div class="cookie">
                 <p><?php echo $lang['COOKIE_TEXT']; ?><a href="http://www.google.fr/analytics/terms/fr.html" target="_blank"><?php echo $lang['COOKIE_MORE']; ?></a></p>
             </div>
-            <a href="#early-access" class="icon-down-arrow">
-                <span></span>
-                <span></span>
-                <span></span>
+            <a href="#early-access">
+                <span class="icon icon-scroll"></span>
             </a>
         </section>
 

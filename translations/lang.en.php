@@ -56,7 +56,7 @@ $lang['EARLY_ACCESS_CLOSE'] = 'Got it';
 
 // About
 $lang['ABOUT_TITLE'] = 'About';
-$lang['ABOUT_SUBTITLE'] = 'You can find here a bit more about me (and the Early Access stuff is a joke)';
+$lang['ABOUT_SUBTITLE'] = 'You can find here a bit more about me (and the Early Access stuff is a joke).';
 
 $lang['ABOUT_HELLO'] = 'Hi.';
 $lang['ABOUT_TEXT_1'] = 'I\'m Pierre Prézelin, front-end developer and webdesigner. I currently work at HelloAsso (Bordeaux, France).';
@@ -71,7 +71,7 @@ $lang['ABOUT_CV'] = 'Download my resume';
 
 // Works
 $lang['WORKS_TITLE'] = 'Works';
-$lang['WORKS_SUBTITLE'] = 'This is the perfect place when you want to see some samples of my work. Full gallery and works from the past months are coming soon!';
+$lang['WORKS_SUBTITLE'] = 'This is the perfect place when you want to see some samples of my work.';
 
 $lang['WORKS_FILTERS_ALL'] = 'All';
 $lang['WORKS_FILTERS_CATEGORY_1'] = 'Front-end Development';

@@ -55,24 +55,25 @@ input[type=submit],
 
 .btn-up {
     position: fixed;
-    bottom: 2.7rem;
-    right: 0;
+    z-index: 9999;
+    bottom: 1.5rem;
+    right: 1.5rem;
     width: 5rem;
     height: 5rem;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: 9999;
+    border-radius: .3rem;
     opacity: 0;
 
     &:before {
         position: absolute;
         content: '';
-        top: 1.2rem;
-        left: 1.2rem;
+        top: 50%;
+        left: 50%;
         width: 2.4rem;
         height: 2.4rem;
         background: url('../images/up-arrow.svg') no-repeat;
-        .rotate(-90deg);
+        transform: translate3d(-50%, -50%, 0);
     }
 
     &.is-visible {

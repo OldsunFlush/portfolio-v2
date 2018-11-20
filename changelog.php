@@ -5,24 +5,29 @@
             <h1>ChangeLog<span><?php echo $lang['LANGUAGE_NOTICE_ENGLISH']; ?></span></span></h1>
             <h2 class="current-version">Current version :</h2>
             <div class="version">
-                <h3>[2.7a]</h3>
+                <h3>2.6.4a</h3>
                 <h4>
                     <em>20-11-18</em>
                 </h4>
                 <ul>
-                    <li>Tranfers assets to a new hosting service</li>
+                    <li>Transfers assets to a new hosting service</li>
+                    <li>Makes some graphic elements a bit more modern</li>
                     <li>Fixes a z-index bug on map</li>
                     <li>Updates assets (and removes obsolete ones)</li>
                     <li>Updates the scroller animation for a more modern one</li>
-                    <li>Updates the cookie to be GDPR compliant</li>
-                    <li>Removes the PHP language cookie for a JS one</li>
-                    <li>Removes fancybox.js for workload-lite on the "Works" section</li>
                     <li>Removes the PHP LESS compiler for Prepros</li>
                     <li>Removes .htaccess configuration</li>
                 </ul>
             </div>
             
             <h2>Incoming updates :</h2>
+            <div class="version">
+                <h3>[2.7b]</h3>
+                <ul>
+                    <li>Updates the cookie to be GDPR compliant</li>
+                    <li>Removes fancybox.js for workload-lite on the "Works" section</li>
+                </ul>
+            </div>
             <div class="version">
                 <h3>[2.8b]</h3>
                 <ul>

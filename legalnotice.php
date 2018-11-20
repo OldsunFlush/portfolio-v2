@@ -6,7 +6,7 @@
             
             <h2>1. Présentation du site.</h2>
             <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <a href="http://pierre-prezelin.com/" title="Pierre Prézelin - www.pierre-prezelin.com">www.pierre-prezelin.com</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
-            <p><strong>Propriétaire</strong> : Pierre Prézelin – 88 rue du Petit Cardinal 33100 Bordeaux
+            <p><strong>Propriétaire</strong> : Pierre Prézelin – 36 rue Lucien Faure 33300 Bordeaux
                 <br />
                 <strong>Créateur</strong> : <a href="www.pierre-prezelin.com">Pierre Prézelin</a>
                 <br />
@@ -15,7 +15,7 @@
                 <br />
                 <strong>Webmaster</strong> : Pierre Prézelin – pierre.prezelin01@gmail.com
                 <br />
-                <strong>Hébergeur</strong> : One – 57 Rue d’Amsterdam Paris 75008 France
+                <strong>Hébergeur</strong> : Pierre Prézelin – 36 rue Lucien Faure 33300 Bordeaux
                 <br />
             </p>
             
