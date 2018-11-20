@@ -46,7 +46,7 @@
     height: 20vw;
     float: left;
     overflow: hidden;
-    .opacity(1);
+    opacity: 1;
     pointer-events: all;
     .transition(all .35s);
     
@@ -56,7 +56,7 @@
     
     &:hover {
         &:before {
-            .opacity(1);
+            opacity: 1;
         }
         
         img {
@@ -66,35 +66,35 @@
         
         .works-overlay{
             background-color: rgba(125, 211, 232, .6);
-            .gradient(45deg, rgba(125, 211, 232, .6), rgba(255, 176, 84, .6));
+            background: linear-gradient(45deg, rgba(125, 211, 232, .6), rgba(255, 176, 84, .6));
 
             h4 {
                 color: #fff;
                 background-color: @color-primary;
-                .box-shadow(0 0 1.5rem rgba(0, 0, 0, .3));
-                .text-shadow(none);
-                .translate3d(0, -150%, 0);
+                box-shadow: 0 0 1.5rem rgba(0, 0, 0, .3);
+                text-shadow: none;
+                transform: translate3d(0, -150%, 0);
             }
             
             p {
-                .opacity(1);
-                .translate3d(-50%, 0, 0);
+                opacity: 1;
+                transform: translate3d(-50%, 0, 0);
             }
             
             ul {
                 &:before {
                     top: 0;
-                    .opacity(1);
+                    opacity: 1;
                 }
                 
                 li {
-                    .translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
                 }
             }
         }
     }
     &.hidden-work {
-        .opacity(.3);
+        opacity: .3;
         pointer-events: none;
     }
 
@@ -117,7 +117,7 @@
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.5);
     .transition(background .35s);
-    .border-box();
+    box-sizing: border-box;
 
     h4 {
         font-size: 2.7rem;
@@ -128,8 +128,8 @@
         display: inline-block;
         padding: .3rem 1.4rem;
         text-transform: uppercase;
-        .text-shadow(0 0 1rem rgba(0, 0, 0, .35));
-        .translate3d(0, -100%, 0);
+        text-shadow: 0 0 1rem rgba(0, 0, 0, .35);
+        transform: translate3d(0, -100%, 0);
         .transition(all .35s);
     }
     
@@ -140,9 +140,9 @@
         width: 100%;
         padding: .8rem 3rem;
         text-shadow: 0 0 1rem rgba(0, 0, 0, .35);
-        .opacity(0);
-        .border-box();
-        .translate3d(-50%, -50%, 0);
+        opacity: 0;
+        box-sizing: border-box;
+        transform: translate3d(-50%, -50%, 0);
         .transition(all .35s);
         
         a:hover {
@@ -157,8 +157,8 @@
         width: 50%;
         padding: 1.5rem 0;
         display: block;
-        .translate3d(-50%, 0, 0);
-        .border-box();
+        transform: translate3d(-50%, 0, 0);
+        box-sizing: border-box;
         
         &:before {
             position: absolute;
@@ -168,7 +168,7 @@
             width: 100%;
             height: .1rem;
             background: #fff;
-            .opacity(0);
+            opacity: 0;
             .transition(all .35s);
         }
         
@@ -176,7 +176,7 @@
             width: 3.9rem;
             height: 3.9rem;
             display: inline-block;
-            .translate3d(0, 200%, 0);
+            transform: translate3d(0, 200%, 0);
             .transition(all .35s);
             
             + li {
@@ -196,7 +196,7 @@
                 height: 3.5rem;
                 display: inline-block;
                 border: 2px solid #fff;
-                .border-radius(50%);
+                border-radius: 50%;
                 .transition(all .2s);
 
                 &:before {
@@ -437,21 +437,21 @@
         text-align: center;
         background-color: @color-mail;
         z-index: 3;
-        .translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
         .transition(transform .2s ease);
 
         i {
-            .translate3d(0, 2.8rem, 0);
+            transform: translate3d(0, 2.8rem, 0);
             .transition(transform .2s ease .2s);
         }
     }
 
     &:hover .contact-overlay {
-        .translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
         .transition(all .3s ease);
 
         i {
-            .translate3d(0, 3rem, 0);
+            transform: translate3d(0, 3rem, 0);
             .transition(all .2s ease .2s);
         }
     }
@@ -511,14 +511,14 @@
         height: 8rem;
         line-height: 4rem;
         vertical-align: middle;
-        .opacity(.7);
+        opacity: .7;
 
         &:hover {
-            .opacity(1);
+            opacity: 1;
         }
 
         i {
-            .translate3d(0, 2.4rem, 0);
+            transform: translate3d(0, 2.4rem, 0);
         }
     }
 }

@@ -5,7 +5,7 @@
 .section {
     position: relative;
     padding: 10rem 0;
-    .border-box();
+    box-sizing: border-box;
 
     .overlay-pattern {
         position: absolute;
@@ -15,7 +15,7 @@
         width: 100%;
         height: 100%;
         z-index: 5;
-        .opacity(.8);
+        opacity: .8;
     }
 }
 
@@ -132,15 +132,16 @@
     }
     section:nth-child(1) {
         padding: 1.2rem 0;
+        background: rgb(86, 162, 206);
+        background: linear-gradient(90deg, rgba(86, 162, 206, 1) 0%, rgba(52, 100, 130, 1) 100%);
         border-top: 1px solid @color-steam-border;
-        .gradient-horizontal(@start-color: #56a2ce, @end-color: #346482, @start-percent: 0%, @end-percent: 100%);
 
         h2 {
             font-family: @fontContent;
             font-size: 2.9rem;
             text-transform: none;
             text-align: left;
-            text-shadow: -.1rem -.1rem 0 rgba(0, 0, 0 ,.2);
+            text-shadow: -.1rem -.1rem 0 rgba(0, 0, 0 , .2);
             line-height: 2.9rem;
         }
         h3 {
@@ -343,7 +344,7 @@
             color: @color-secondary;
         }
         h3 {
-            font-family: @fontText;
+            font-family: @fontContent;
             color: #ddd;
             line-height: 1.8rem;
             padding: 1.4rem 0 0;
@@ -351,6 +352,7 @@
     }
 
     #map {
+        z-index: 1;
         width: 100%;
         height: 60rem;
 

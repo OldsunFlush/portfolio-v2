@@ -1,13 +1,5 @@
 <?php
 /**
- * LESS COMPILER
- */
-	require_once('includes/lessc.inc.php');
-
-    $less = new lessc;
-    $less->compileFile('styles/config.less', 'styles/styles.css');
-
-/**
  * LANGUAGE SWITCH
  */
 	session_start();

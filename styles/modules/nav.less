@@ -82,7 +82,7 @@
         height: .4rem;
         display: none;
         background-color: #fff;
-        .opacity(1);
+        opacity: 1;
         .rotate(0);
         .transition(all .2s);
         
@@ -90,7 +90,7 @@
             top: 3.7rem;
         }
         &:nth-child(2) {
-            .opacity(1);
+            opacity: 1;
             top: 4.5rem;
         }
         &:nth-child(3) {
@@ -108,7 +108,7 @@
             }
             &:nth-child(2) {
                 right: -6rem;
-                .opacity(0);
+                opacity: 0;
             }
             &:nth-child(3) {
                 top: 4.5rem;
@@ -145,7 +145,7 @@
             }
             &:nth-child(2) {
                 right: -6rem;
-                .opacity(0);
+                opacity: 0;
             }
             &:nth-child(3) {
                 top: 2.2rem;
@@ -188,12 +188,12 @@
     .sidemenu();
     right: 0;
     padding: 2.4rem 3.2rem;
-    .border-box();
-    .translate3d(-100%, 0, 0);
+    box-sizing: border-box;
+    transform: translate3d(-100%, 0, 0);
     .transition(all .5s);
     
     &.open {
-        .translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
     
     h2 {
@@ -233,13 +233,13 @@
         height: 100%;
         margin-right: 0;
         background-color: @color-tertiary;
-        .translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
         .transition(all .5s);
         
         ul {
             margin: 0;
             padding: 5rem 0 0;
-            .border-box();
+            box-sizing: border-box;
             
             li {
                 width: 100%;
@@ -254,7 +254,7 @@
                     padding: 0 0 0 3.1rem;
                     line-height: 5rem;
                     border-left: .3rem solid @color-tertiary;
-                    .border-box();
+                    box-sizing: border-box;
                     
                     &:hover {
                         color: @color-tertiary;
@@ -267,7 +267,7 @@
         }
 
         &.open {
-            .translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
             .transition(all .5s);
         }
         
@@ -290,7 +290,7 @@
                 top: 1.6rem;
             }
             &:nth-child(2) {
-                .opacity(1);
+                opacity: 1;
                 top: 2.2rem;
             }
             &:nth-child(3) {
@@ -311,7 +311,7 @@
                     top: 1.6rem;
                 }
                 &:nth-child(2) {
-                    .opacity(1);
+                    opacity: 1;
                     top: 2.2rem;
                     right: 1.8rem;
                 }

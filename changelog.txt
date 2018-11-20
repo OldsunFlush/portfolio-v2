@@ -3,11 +3,12 @@ Changelog :
 [v2.7a] (20-11-18)
 - Tranfers assets to a new hosting service
 - Fixes a z-index bug on map
-- Updates assets
+- Updates assets (and removes obsolete ones)
 - Updates the scroller animation for a more modern one
 - Updates the cookie to be GDPR compliant
 - Removes the PHP language cookie for a JS one
 - Removes fancybox.js for workload-lite on the "Works" section
+- Removes the PHP LESS compiler for Prepros
 - Removes .htaccess configuration
 
 /* ------------------------------------------

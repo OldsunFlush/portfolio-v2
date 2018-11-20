@@ -34,50 +34,6 @@
     transform: scale(@ratio);
 }
 
-/*.translateX(@x) {
-    -webkit-transform: translateX(@x);
-    -ms-transform: translateX(@x);
-    transform: translateX(@x);
-}
-.translateY(@y) {
-    -webkit-transform: translateY(@y);
-    -ms-transform: translateY(@y);
-    transform: translateY(@y);
-}*/
-
-.gradient(@direction, @start-color, @end-color) {
-    background: @end-color;
-    background: -webkit-linear-gradient(@direction, @start-color @start-percent, @end-color @end-percent);
-    background: -moz-linear-gradient(@direction, @start-color @start-percent, @end-color @end-percent);
-    background: -ms-linear-gradient(@direction, @start-color @start-percent, @end-color @end-percent);
-    background: -o-linear-gradient(@direction, @start-color @start-percent, @end-color @end-percent);
-    background: linear-gradient(@direction, @start-color @start-percent, @end-color @end-percent);
-}
-.gradient-vertical(@start-color, @end-color, @start-percent: 0%, @end-percent: 100%) {
-    background: @end-color;
-    background: -webkit-linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent);
-    background: -moz-linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent);
-    background: -ms-linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent);
-    background: -o-linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent);
-    background: linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent);
-}
-.gradient-horizontal(@start-color: #555, @end-color: #333, @start-percent: 0%, @end-percent: 100%) {
-    background: @end-color;
-    background: -webkit-linear-gradient(to right, @start-color @start-percent, @end-color @end-percent);
-    background: -moz-linear-gradient(to right, @start-color @start-percent, @end-color @end-percent);
-    background: -ms-linear-gradient(to right, @start-color @start-percent, @end-color @end-percent);
-    background: -o-linear-gradient(to right, @start-color @start-percent, @end-color @end-percent);
-    background: linear-gradient(to right, @start-color @start-percent, @end-color @end-percent);
-}
-.gradient-radial(@start-color, @end-color) {
-    background: @end-color;
-    background: -webkit-radial-gradient(ellipse at center, @start-color 0%, @end-color 100%);
-    background: -moz-radial-gradient(ellipse at center, @start-color 0%, @end-color 100%);
-    background: -ms-radial-gradient(ellipse at center, @start-color 0%, @end-color 100%);
-    background: -o-radial-gradient(ellipse at center, @start-color 0%, @end-color 100%);
-    background: radial-gradient(ellipse at center, @start-color 0%, @end-color 100%);
-}
-
 .background-size(@type: cover) {
     background-size: @type;
 }

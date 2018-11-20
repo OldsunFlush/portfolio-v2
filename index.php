@@ -2,17 +2,6 @@
     require_once('common.php');
     require_once('includes/header.inc.php');
 ?>
-       
-        <!-- Preloader
-        <div class="preloader is-ninja">
-            <div class="preloader-container">
-                <div class="ball-scale">
-                    <div></div>
-                </div>
-                <p><?php //echo $lang['PRELOADER_LOADING']; ?></p><br>
-                <p><?php //echo $lang['PRELOADER_NOTICE']; ?></p>
-            </div>
-        </div> -->
 
         <a href="#home" class="btn btn-up"></a>
 
@@ -21,14 +10,14 @@
             <div class="overlay-pattern"></div>
             <div class="section-home-inner">
                 <div class="title title-home">
-                    <h1 class="wow fadeInLeft"><?php echo $lang['HOME_WELCOME_1']; ?></h1>
-                    <h3 class="wow fadeInLeft"><?php echo $lang['HOME_WELCOME_2']; ?></h3>
+                    <h1><?php echo $lang['HOME_WELCOME_1']; ?></h1>
+                    <h3><?php echo $lang['HOME_WELCOME_2']; ?></h3>
                 </div>
             </div>
             <div class="cookie">
                 <p><?php echo $lang['COOKIE_TEXT']; ?><a href="http://www.google.fr/analytics/terms/fr.html" target="_blank"><?php echo $lang['COOKIE_MORE']; ?></a></p>
             </div>
-            <a href="#early-access" class="icon-down-arrow wow fadeInDown">
+            <a href="#early-access" class="icon-down-arrow">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -76,7 +65,7 @@
                     <p><?php echo $lang['ABOUT_TEXT_2']; ?></p>
                     <p><strong><?php echo $lang['ABOUT_TEXT_3']; ?></strong></p>
                 </div>
-                <div class="content wow fadeInRight">
+                <div class="content">
                     <img src="images/portrait.png" width=200 height=200 alt="<?php echo $lang['ABOUT_PORTRAIT_ALT']; ?>">
                 </div>
                 <div class="clear"></div>

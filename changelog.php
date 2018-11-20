@@ -12,11 +12,12 @@
                 <ul>
                     <li>Tranfers assets to a new hosting service</li>
                     <li>Fixes a z-index bug on map</li>
-                    <li>Updates assets</li>
+                    <li>Updates assets (and removes obsolete ones)</li>
                     <li>Updates the scroller animation for a more modern one</li>
                     <li>Updates the cookie to be GDPR compliant</li>
                     <li>Removes the PHP language cookie for a JS one</li>
                     <li>Removes fancybox.js for workload-lite on the "Works" section</li>
+                    <li>Removes the PHP LESS compiler for Prepros</li>
                     <li>Removes .htaccess configuration</li>
                 </ul>
             </div>

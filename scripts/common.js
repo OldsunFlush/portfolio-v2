@@ -44,7 +44,6 @@
                 parallaxedBackground: $('section.is-parallaxed'),
                 earlyAccess: $('section.section-early-access'),
                 steamGotIt: $('a.btn-steam'),
-                //fancybox: $('.fancybox'),
                 workFilter: $('.list-filters'),
                 workSample: $('.list-works'),
                 listSkill: $('.list-skills'),
@@ -77,7 +76,7 @@
 
             // Work highlight
             //this.workHighlight();
-            
+
             // Works filters
             this.worksFilters();
 
@@ -90,17 +89,6 @@
             // Leaflet map
             this.leafletMap();
         },
-        /*fancybox: function() {
-            var self = this;
-
-            self.elements.fancybox.fancybox({
-                helpers: {
-                    overlay: {
-                        locked: false
-                    }
-                }
-            });
-        },*/
         headerResize: function() {
             var self = this;
 
@@ -134,10 +122,12 @@
                     return false;
                 });
             }
+
             function openSettingsMenu() {
                 self.elements.settingsMenu.toggleClass('open');
                 self.elements.overlay.fadeToggle('fast', 'swing');
             }
+
             function reinitAllMenus() {
                 self.elements.navMain.removeClass('open');
                 self.elements.settingsMenu.removeClass('open');
@@ -214,17 +204,17 @@
         },*/
         worksFilters: function() {
             var self = this;
-            
+
             self.elements.workFilter.on('click', function(event) {
                 event.preventDefault();
                 var filterCategory = $(this).data('category');
-                
+
                 self.elements.workFilter.removeClass('active-filter');
                 $(this).addClass('active-filter');
-                
+
                 self.elements.workSample.each(function() {
                     var category = $(this).attr('class');
-                    
+
                     if (!$(this).hasClass(filterCategory)) {
                         $(this).addClass('hidden-work');
                     } else {
@@ -251,7 +241,7 @@
             var self = this;
             var ripple, d, x, y;
 
-            $(self.elements.skill).click(function (e) {
+            $(self.elements.skill).click(function(e) {
                 var skill = $(this).find('.ripple-mask');
 
                 if (skill.find('.ripple-effect').length == 0) {
@@ -281,11 +271,11 @@
         leafletMap: function() {
             var map = L.map('map').setView([44.837789, -0.579180], 13),
                 marker = L.icon({
-                iconUrl: 'images/map-marker.svg',
+                    iconUrl: 'images/map-marker.svg',
 
-                iconSize:     [41, 51],
-                iconAnchor:   [22, 58]
-            });
+                    iconSize: [41, 51],
+                    iconAnchor: [22, 58]
+                });
 
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                 id: 'oldsunflush.4b3b09f8',
@@ -294,7 +284,7 @@
                 zoomControl: false
             }).addTo(map);
 
-            L.marker([44.837789, -0.579180], {icon: marker}).addTo(map);
+            L.marker([44.837789, -0.579180], { icon: marker }).addTo(map);
 
             map.dragging.disable();
             map.touchZoom.disable();
@@ -304,7 +294,7 @@
             map.keyboard.disable();
 
             if (map.tap) map.tap.disable();
-            document.getElementById('map').style.cursor='default';
+            document.getElementById('map').style.cursor = 'default';
         }
     };
 
@@ -315,9 +305,9 @@
         var self = this;
 
         $(this).click(function(event) {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 
                 if (target.length) {
                     event.preventDefault();
