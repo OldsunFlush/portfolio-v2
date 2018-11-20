@@ -429,36 +429,31 @@
             margin-top: .5rem;
         }
 
-        .mail-overlay {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            background-color: @color-mail;
-            z-index: 3;
-            .translate3d(0, -100%, 0);
-            .transition(transform .2s ease);
+    }
+    .contact-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: @color-mail;
+        z-index: 3;
+        .translate3d(0, -100%, 0);
+        .transition(transform .2s ease);
 
-            i {
-                .translate3d(0, 2.8rem, 0);
-                .transition(transform .2s ease .2s);
-            }
+        i {
+            .translate3d(0, 2.8rem, 0);
+            .transition(transform .2s ease .2s);
         }
+    }
 
-        &:hover .mail-overlay {
-            .translate3d(0, 0, 0);
-            .transition(all .3s ease);
+    &:hover .contact-overlay {
+        .translate3d(0, 0, 0);
+        .transition(all .3s ease);
 
-            i {
-                .translate3d(0, 2.8rem, 0);
-                .transition(all .2s ease .2s);
-            }
+        i {
+            .translate3d(0, 3rem, 0);
+            .transition(all .2s ease .2s);
         }
-        /*&:active .mail-overlay i,
-        &:focus .mail-overlay i {
-            transform: translate3d(0, 28px, 0) scale(2);
-            .opacity(0);
-        }*/
     }
 }
 

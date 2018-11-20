@@ -3,16 +3,16 @@
     require_once('includes/header.inc.php');
 ?>
        
-        <!-- Preloader -->
+        <!-- Preloader
         <div class="preloader is-ninja">
             <div class="preloader-container">
                 <div class="ball-scale">
                     <div></div>
                 </div>
-                <p><?php echo $lang['PRELOADER_LOADING']; ?></p><br>
-                <p><?php echo $lang['PRELOADER_NOTICE']; ?></p>
+                <p><?php //echo $lang['PRELOADER_LOADING']; ?></p><br>
+                <p><?php //echo $lang['PRELOADER_NOTICE']; ?></p>
             </div>
-        </div>
+        </div> -->
 
         <a href="#home" class="btn btn-up"></a>
 
@@ -106,7 +106,7 @@
                             <p><?php echo $lang['WORKS_VOXOFFICE_SUBTITLE']; ?></p>
                             <ul class="list">
                                 <li class="list list-item more-item"><a href="https://www.behance.net/gallery/33909780/VoxOffice" title="<?php echo $lang['WORKS_VOXOFFICE_DESC']; ?>" target="_blank"></a></li>
-                                <li class="list list-item link-item"><a href="http://pierre-prezelin.com/src/VoxOffice" title="<?php echo $lang['WORKS_VOXOFFICE_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item link-item"><a href="http://www.voxoffice.fr/" title="<?php echo $lang['WORKS_VOXOFFICE_LINK']; ?>" target="_blank"></a></li>
                             </ul>
                         </div>
                     </li><!--
@@ -145,8 +145,8 @@
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_CENTAURI_TITLE']; ?></h4>
                             <ul class="list">
-                                <li class="list list-item more-item"><a href="images/works/centauri_big.jpg" class="fancybox" title="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>"></a></li>
-                                <li class="list list-item link-item"><a href="https://soundcloud.com/centauri-black" title="<?php echo $lang['WORKS_CENTAURI_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item more-item"><a href="images/works/centauri_big.jpg" data-fancybox title="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>"></a></li>
+                                <li class="list list-item link-item"><a href="https://soundcloud.com/centauri-vision" title="<?php echo $lang['WORKS_CENTAURI_LINK']; ?>" target="_blank"></a></li>
                             </ul>
                         </div>
                     </li><!--
@@ -155,7 +155,7 @@
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_NEWREBORN_TITLE']; ?></h4>
                             <ul class="list">
-                                <li class="list list-item more-item"><a href="images/works/animation_big.jpg" class="fancybox" title="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>"></a></li>
+                                <li class="list list-item more-item"><a href="images/works/animation_big.jpg" data-fancybox title="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>"></a></li>
                                 <li class="list list-item link-item"><a href="http://pierre-prezelin.com/src/NewRebornJS" title="<?php echo $lang['WORKS_NEWREBORN_LINK']; ?>" target="_blank"></a></li>
                             </ul>
                         </div>
@@ -176,7 +176,7 @@
                             <h4><?php echo $lang['WORKS_LIMBO_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/limbo_big.jpg" class="fancybox" title="<?php echo $lang['WORKS_LIMBO_DESC']; ?>"></a>
+                                    <a href="images/works/limbo_big.jpg" data-fancybox title="<?php echo $lang['WORKS_LIMBO_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -196,7 +196,7 @@
                             <h4><?php echo $lang['WORKS_CAR_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/infographic_cars_big.jpg" class="fancybox" title="<?php echo $lang['WORKS_CAR_DESC']; ?>"></a>
+                                    <a href="images/works/infographic_cars_big.jpg" data-fancybox title="<?php echo $lang['WORKS_CAR_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -217,7 +217,7 @@
                             <h4><?php echo $lang['WORKS_IBANEZ_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/ibanez_big.jpg" class="fancybox" title="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>"></a>
+                                    <a href="images/works/ibanez_big.jpg" data-fancybox title="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -249,8 +249,6 @@
                             <p><?php echo $lang['SKILLS_WEB_4']; ?></p>
                             <p><?php echo $lang['SKILLS_WEB_5']; ?></p>
                             <p><?php echo $lang['SKILLS_WEB_6']; ?></p>
-                            <p><?php echo $lang['SKILLS_WEB_7']; ?></p>
-                            <p><?php echo $lang['SKILLS_WEB_8']; ?></p>
                         </section>
                     <li class="list list-item list-skills">
                         <div class="list-skills-header">
@@ -273,7 +271,6 @@
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_1']; ?></p>
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_2']; ?></p>
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_3']; ?></p>
-                            <p><?php echo $lang['SKILLS_AUDIOVISUAL_4']; ?></p>
                         </section>
                     </li>
                     <li class="list list-item list-skills">
@@ -285,7 +282,6 @@
                             <p><?php echo $lang['SKILLS_COM_1']; ?></p>
                             <p><?php echo $lang['SKILLS_COM_2']; ?></p>
                             <p><?php echo $lang['SKILLS_COM_3']; ?></p>
-                            <p><?php echo $lang['SKILLS_COM_4']; ?></p>
                         </section>
                     </li>
                     <li class="list list-item list-skills">
@@ -324,16 +320,26 @@
                 <h3 class="subtitle subtitle-contact"><?php echo $lang['CONTACT_SUBTITLE']; ?></h3>
                 <ul class="list list-getInTouch">
                     <li class="list list-item list-item-contact contact-phone">
-                        <i class="fa fa-mobile fa-4x"></i>
-                        <p>+33(0)6 76 73 85 10</p>
+                        <a href="tel:0676738510" title="<?php echo $lang['PHONE_TITLE']; ?>" target="_blank">
+                            <div class="contact-overlay">
+                                <i class="fa fa-phone fa-2x"></i>
+                            </div>
+                            <i class="fa fa-mobile fa-4x"></i>
+                            <p>+33(0)6 76 73 85 10</p>
+                        </a>
                     </li>
                     <li class="list list-item list-item-contact contact-skype">
-                        <i class="fa fa-skype fa-4x"></i>
-                        <p>pierre.prezelin01</p>
+                        <a href="tel:0676738510" title="<?php echo $lang['SKYPE_TITLE']; ?>" target="_blank">
+                            <div class="contact-overlay">
+                                <i class="fa fa-phone fa-2x"></i>
+                            </div>
+                            <i class="fa fa-skype fa-4x"></i>
+                            <p>pierre.prezelin01</p>
+                        </a>
                     </li>
                     <li class="list list-item list-item-contact contact-mail">
                         <a href="mailto:pierre.prezelin01@gmail.com" title="<?php echo $lang['MAIL_TITLE']; ?>" target="_blank">
-                            <div class="mail-overlay">
+                            <div class="contact-overlay">
                                 <i class="fa fa-paper-plane fa-2x"></i>
                             </div>
                             <i class="fa fa-envelope fa-3x"></i>
@@ -353,7 +359,7 @@
                                 </a>
                             </li>
                             <li class="list-item list-item-social social-soundcloud">
-                                <a href="https://soundcloud.com/centauri-black" title="<?php echo $lang['SOUNDCLOUD_TITLE']; ?>" target="_blank">
+                                <a href="https://soundcloud.com/centauri-vision" title="<?php echo $lang['SOUNDCLOUD_TITLE']; ?>" target="_blank">
                                     <i class="fa fa-soundcloud fa-2x"></i>
                                 </a>
                             </li>

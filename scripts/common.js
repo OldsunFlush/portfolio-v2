@@ -44,7 +44,7 @@
                 parallaxedBackground: $('section.is-parallaxed'),
                 earlyAccess: $('section.section-early-access'),
                 steamGotIt: $('a.btn-steam'),
-                fancybox: $('.fancybox'),
+                //fancybox: $('.fancybox'),
                 workFilter: $('.list-filters'),
                 workSample: $('.list-works'),
                 listSkill: $('.list-skills'),
@@ -54,14 +54,8 @@
             // Smooth scroll
             this.elements.anchorLink.smoothScroll();
 
-            // Preloader
-            //this.preloadScreen();
-
-            // WOWJS
-            //this.WOW();
-
             // Fancybox
-            this.fancybox();
+            //this.fancybox();
 
             // Header resize on scroll
             this.headerResize();
@@ -96,15 +90,7 @@
             // Leaflet map
             this.leafletMap();
         },
-        /*preloadScreen: function() {
-            var self = this;
-
-            self.window.load(function() {
-                self.elements.body.scrollTop(0).css('overflow-y', 'auto');
-                self.elements.preloader.fadeOut('slow');
-            });
-        },*/
-        fancybox: function() {
+        /*fancybox: function() {
             var self = this;
 
             self.elements.fancybox.fancybox({
@@ -114,7 +100,7 @@
                     }
                 }
             });
-        },
+        },*/
         headerResize: function() {
             var self = this;
 
@@ -125,9 +111,6 @@
                 });
             }
         },
-        /*WOW: function() {
-            new WOW().init();
-        },*/
         responsiveHeader: function() {
             var self = this;
 
