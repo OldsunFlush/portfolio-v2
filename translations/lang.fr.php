@@ -184,7 +184,7 @@ $lang['SKYPE_TITLE'] = 'Appelez-moi via Skype';
 $lang['MAIL_TITLE'] = 'Envoyez-moi un mail';
 $lang['BEHANCE_TITLE'] = 'Vers ma page Behance (nouvelle fenêtre)';
 $lang['LINKEDIN_TITLE'] = 'Vers ma page LinkedIn (nouvelle fenêtre)';
-$lang['SOUNDCLOUD_TITLE'] = 'Vers ma page Soundcloud (nouvelle fenêtre)';
+$lang['CODEPEN_TITLE'] = 'Vers ma page CodePen (nouvelle fenêtre)';
 $lang['YOUTUBE_TITLE'] = 'Vers ma page YouTube (nouvelle fenêtre)';
 
 // Map

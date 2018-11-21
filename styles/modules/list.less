@@ -492,16 +492,16 @@
 .list-item-social {
     display: block;
 
-    &:nth-of-type(1) a {
+    &.social-codepen a {
+        background-color: @codepen;
+    }
+    &.social-behance a {
         background-color: @behance;
     }
-    &:nth-of-type(2) a {
+    &.social-linkedin a {
         background-color: @linkedin;
     }
-    &:nth-of-type(3) a {
-        background-color: @soundcloud;
-    }
-    &:nth-of-type(4) a {
+    &.social-youtube a {
         background-color: @youtube;
     }
 
@@ -511,10 +511,9 @@
         height: 8rem;
         line-height: 4rem;
         vertical-align: middle;
-        opacity: .7;
 
         &:hover {
-            opacity: 1;
+            opacity: .9;
         }
 
         i {

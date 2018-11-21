@@ -335,6 +335,11 @@
                     </li>
                     <li class="list list-item list-item-contact contact-social">
                         <ul class="list">
+                            <li class="list-item list-item-social social-codepen">
+                                <a href="https://codepen.io/OldsunFlush/" title="<?php echo $lang['CODEPEN_TITLE']; ?>" target="_blank">
+                                    <i class="fa fa-codepen fa-2x"></i>
+                                </a>
+                            </li>
                             <li class="list-item list-item-social social-behance">
                                 <a href="https://www.behance.net/PierrePrezelin" title="<?php echo $lang['BEHANCE_TITLE']; ?>" target="_blank">
                                     <i class="fa fa-behance fa-2x"></i>
@@ -343,11 +348,6 @@
                             <li class="list-item list-item-social social-linkedin">
                                 <a href="https://www.linkedin.com/pub/pierre-pr%C3%A9zelin/85/902/612" title="<?php echo $lang['LINKEDIN_TITLE']; ?>" target="_blank">
                                     <i class="fa fa-linkedin fa-2x"></i>
-                                </a>
-                            </li>
-                            <li class="list-item list-item-social social-soundcloud">
-                                <a href="https://soundcloud.com/centauri-vision" title="<?php echo $lang['SOUNDCLOUD_TITLE']; ?>" target="_blank">
-                                    <i class="fa fa-soundcloud fa-2x"></i>
                                 </a>
                             </li>
                             <li class="list-item list-item-social social-youtube">
