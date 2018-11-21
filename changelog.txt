@@ -1,14 +1,7 @@
 Changelog :
 
-[v2.7a] (21-11-18)
-- End of alpha, beta version release
-- Transfers assets to a new hosting service
-- Makes some graphic elements a bit more modern
-- Fixes a z-index bug on map
-- Updates assets (and removes obsolete ones)
-- Updates the scroller animation for a more modern one
-- Removes the PHP LESS compiler for Prepros
-- Removes .htaccess configuration
+[v2.7.1b] (21-11-18)
+- Fixes some links
 
 /* ------------------------------------------
    Incoming updates
@@ -24,6 +17,16 @@ Changelog :
 /* ------------------------------------------
    Previous updates
 ------------------------------------------ */
+
+[v2.7b] (21-11-18)
+- End of alpha, beta version release
+- Transfers assets to a new hosting service
+- Makes some graphic elements a bit more modern
+- Fixes a z-index bug on map
+- Updates assets (and removes obsolete ones)
+- Updates the scroller animation for a more modern one
+- Removes the PHP LESS compiler for Prepros
+- Removes .htaccess configuration
 
 v2.6.3a (13-05-17)
 - Loads fonts progressively rather than making them pop in
