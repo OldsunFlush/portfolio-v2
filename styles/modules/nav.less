@@ -65,13 +65,13 @@
     width: 2.3rem;
     height: 1.8rem;
     margin: 0 auto;
-    padding: 3.9rem 1.7rem;
+    padding: 4.8rem 2.8rem;
     display: block;
     background: url('../images/icon-settings.svg') no-repeat center center;
     background-size: 2.2rem 2.2rem;
     border-top: 0;
     z-index: 105;
-    .rotate(0);
+    transform: rotate(0);
     .transition(all .2s);
     
     span {
@@ -118,7 +118,7 @@
     }
 
     header.reduced & {
-        padding: 1.4rem 1.5rem;
+        padding: 2.3rem 2.6rem;
         border-top: 0;
         .transition(all .25s ease-in-out);
 
@@ -212,8 +212,6 @@
 @media (max-width: @tabletMax) {
     .sidemenu-toggle:hover,
     .settings-toggle:hover {
-        -webkit-transform: none !important;
-        -moz-transform: none !important;
         transform: none !important;
     }
 }
@@ -278,7 +276,7 @@
 
     .sidemenu-toggle {
         right: 1.6rem;
-        padding: 1.4rem 1.6rem;
+        padding: 2.3rem 2.7rem;
         background-image: none;
         
         span {
@@ -299,13 +297,9 @@
         }
         
         &:hover {
-            -webkit-transform: none !important;
-            -moz-transform: none !important;
             transform: none !important;
             
             span {
-                -webkit-transform: none !important;
-                -moz-transform: none !important;
                 transform: none !important;
                 &:nth-child(1) {
                     top: 1.6rem;
@@ -328,7 +322,7 @@
         left: 1.8rem;
         width: 2.2rem;
         height: 2.2rem;
-        padding: 1.4rem 1.6rem;
+        padding: 2.5rem 2.7rem;
         display: block;
         background: url('../images/icon-settings.svg') no-repeat center center;
         background-size: 2.2rem 2.2rem;

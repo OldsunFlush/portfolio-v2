@@ -7,7 +7,7 @@
     background-color: @color-tertiary;
     padding: 3%;
     box-sizing: border-box;
-    
+
     h1 {
         font-size: 5.2rem;
         color: @color-primary;
@@ -23,7 +23,7 @@
     h2 {
         font-size: 2rem;
         color: @color-secondary;
-        padding: 3.4rem 0 .4rem;
+        padding: 3.4rem 0 .5em;
     }
     p {
         color: @color-text-lighter;
@@ -44,15 +44,6 @@
     margin: 6rem auto 3rem;
 }
 
-@media (min-width: @smartphone) {
-    .legal-notice,
-    .changelog {
-        p {
-            text-align: justify;
-        }
-    }
-}
-
 @media (max-width: @smartphone) {
     .legal-notice,
     .changelog {
@@ -66,19 +57,21 @@
     }
 }
 
-/* Legal notice
+/* Legal Notice
    =============================================== */
 
 .legal-notice {
-
+    p {
+        text-align: justify;
+    }
 }
-
 
 /* ChangeLog
    =============================================== */
 
 .changelog {
     text-align: center;
+
     .version {
         + .version {
             margin-top: 3rem;
@@ -91,14 +84,16 @@
         h4 {
             font-size: 1.4rem;
             color: @color-text-lighter;
-            margin-bottom: 1rem;
+            margin-bottom: 1em;
         }
         ul li {
-            display: block;
             color: @color-text-lighter;
             &:before {
                 content: '- ';
             }
+        }
+        p {
+            margin-bottom: 1em;
         }
     }
 }

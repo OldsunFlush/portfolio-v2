@@ -1,6 +1,7 @@
 Changelog :
 
-[v2.6.4a] (21-11-18)
+[v2.7a] (21-11-18)
+- End of alpha, beta version release
 - Transfers assets to a new hosting service
 - Makes some graphic elements a bit more modern
 - Fixes a z-index bug on map
@@ -13,17 +14,12 @@ Changelog :
    Incoming updates
 ------------------------------------------ */
 
-[v2.7a]
-- Updates the cookie to be GDPR compliant
-- Removes fancybox.js for workload-lite on the "Works" section
-
-[v2.8b]
-- Adds the complete "Options" menu
-- End of alpha, beta version release
-
-[v2.9]
-- Adds the full "Gallery" page with workLoad.js or Elastic Grid
+[v2.8]
 - End of beta, official release
+- Adds the complete "Options" menu
+- Replaces fancybox.js by PhotoSwipe
+- Updates the cookie banner to be GDPR compliant
+- Updates content
 
 /* ------------------------------------------
    Previous updates

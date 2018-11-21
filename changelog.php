@@ -5,10 +5,13 @@
             <h1>ChangeLog<span><?php echo $lang['LANGUAGE_NOTICE_ENGLISH']; ?></span></span></h1>
             <h2 class="current-version">Current version :</h2>
             <div class="version">
-                <h3>2.6.4a</h3>
+                <h3>[2.7b]</h3>
                 <h4>
-                    <em>20-11-18</em>
+                    <em>21-11-18</em>
                 </h4>
+                <p>
+                    <strong>End of alpha, beta version release</strong>
+                </p>
                 <ul>
                     <li>Transfers assets to a new hosting service</li>
                     <li>Makes some graphic elements a bit more modern</li>
@@ -22,24 +25,15 @@
             
             <h2>Incoming updates :</h2>
             <div class="version">
-                <h3>[2.7b]</h3>
-                <ul>
-                    <li>Updates the cookie to be GDPR compliant</li>
-                    <li>Removes fancybox.js for workload-lite on the "Works" section</li>
-                </ul>
-            </div>
-            <div class="version">
-                <h3>[2.8b]</h3>
+                <h3>[2.8]</h3>
+                <p>
+                    <strong>End of beta, official release</strong>
+                </p>
                 <ul>
                     <li>Adds the complete "Options" menu</li>
-                    <li>End of alpha, beta version release</li>
-                </ul>
-            </div>
-            <div class="version">
-                <h3>[2.9]</h3>
-                <ul>
-                    <li>Adds the full "Gallery" page with workLoad.js or Elastic Grid</li>
-                    <li>End of beta, official release</li>
+                    <li>Replaces fancybox.js by PhotoSwipe</li>
+                    <li>Updates the cookie banner to be GDPR compliant</li>
+                    <li>Updates content</li>
                 </ul>
             </div>
             
