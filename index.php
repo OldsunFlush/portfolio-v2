@@ -141,7 +141,7 @@
                             <h4><?php echo $lang['WORKS_NEWREBORN_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item"><a href="images/works/animation_big.jpg" data-fancybox title="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>"></a></li>
-                                <li class="list list-item link-item"><a href="http://pierre-prezelin.com/src/NewRebornJS" title="<?php echo $lang['WORKS_NEWREBORN_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item link-item"><a href="http://pierre-prezelin.com/src/new-reborn" title="<?php echo $lang['WORKS_NEWREBORN_LINK']; ?>" target="_blank"></a></li>
                             </ul>
                         </div>
                     </li><!--
@@ -186,12 +186,13 @@
                             </ul>
                         </div>
                     </li><!--
-                    --><li class="list list-item list-works audiovisual">
+                    --><li class="list list-item list-works audiovisual dev webdesign">
                         <img src="images/works/spotted-episode2.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_SPOTTED_ALT']; ?>">
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_SPOTTED_TITLE']; ?></h4>
                             <p><?php echo $lang['WORKS_SPOTTED_SUBTITLE']; ?></p>
                             <ul class="list">
+                                <li class="list list-item more-item"><a href="http://pierre-prezelin.com/src/spotted" title="<?php echo $lang['WORKS_SPOTTED_DESC']; ?>" target="_blank"></a></li>
                                 <li class="list list-item link-item"><a href="https://vimeo.com/90727720" title="<?php echo $lang['WORKS_SPOTTED_LINK']; ?>" target="_blank"></a></li>
                             </ul>
                         </div>

@@ -66,7 +66,7 @@ $lang['ABOUT_TEXT_3'] = 'Profitez bien de la visite, des nouvelles fonctionnalit
 $lang['ABOUT_PORTRAIT_ALT'] = '(C\'est bien moi)';
 
 $lang['ABOUT_CV_FILE'] = 'cv-fr.pdf';
-$lang['ABOUT_CV_TITLE'] = 'Télécharger mon CV (Nouvelle fenêtre)';
+$lang['ABOUT_CV_TITLE'] = 'Télécharger mon CV (nouvelle fenêtre)';
 $lang['ABOUT_CV'] = 'Télécharger mon CV';
 
 // Works
@@ -83,22 +83,22 @@ $lang['WORKS_VOXOFFICE_TITLE'] = 'VoxOffice';
 $lang['WORKS_VOXOFFICE_SUBTITLE'] = '(avec <a href="http://simon-tr.com" title="Vers le portfolio de Simon Trichereau" target="_blank">Simon Trichereau</a>)';
 $lang['WORKS_VOXOFFICE_ALT'] = 'VoxOffice';
 $lang['WORKS_VOXOFFICE_DESC'] = 'Un projet de classement de films par l\'utilisateur (avec Simon Trichereau)';
-$lang['WORKS_VOXOFFICE_LINK'] = 'Vers le site de VoxOffice (Nouvelle fenêtre)';
+$lang['WORKS_VOXOFFICE_LINK'] = 'Vers le site de VoxOffice (nouvelle fenêtre)';
 
 $lang['WORKS_AUREA_TITLE'] = 'Auréa';
 $lang['WORKS_AUREA_SUBTITLE'] = '(dans le cadre d\'un stage à <a href="http://rc2c.fr" title="Vers le site d\'RC2C" target="_blank">RC2C</a>)';
 $lang['WORKS_AUREA_ALT'] = '(dans le cadre d\'un stage à RC2C)';
-$lang['WORKS_AUREA_LINK'] = 'Vers le site d\'Auréa (Nouvelle fenêtre)';
+$lang['WORKS_AUREA_LINK'] = 'Vers le site d\'Auréa (nouvelle fenêtre)';
 
 $lang['WORKS_JAB_TITLE'] = 'Armèle & Loïck';
 $lang['WORKS_JAB_SUBTITLE'] = '(dans le cadre d\'un stage à <a href="http://rc2c.fr" title="Vers le site d\'RC2C" target="_blank">RC2C</a>)';
 $lang['WORKS_JAB_ALT'] = 'Armèle & Loïck (dans le cadre d\'un stage à RC2C)';
-$lang['WORKS_JAB_LINK'] = 'Vers le site des Jeunes Agriculteurs de Bretagne (Nouvelle fenêtre)';
+$lang['WORKS_JAB_LINK'] = 'Vers le site des Jeunes Agriculteurs de Bretagne (nouvelle fenêtre)';
 
 $lang['WORKS_CYCLAD_TITLE'] = 'Cyclad';
 $lang['WORKS_CYCLAD_SUBTITLE'] = '(dans le cadre d\'un stage à <a href="http://rc2c.fr" title="Vers le site d\'RC2C" target="_blank">RC2C</a>)';
 $lang['WORKS_CYCLAD_ALT'] = 'Cyclad (dans le cadre d\'un stage à RC2C)';
-$lang['WORKS_CYCLAD_LINK'] = 'Vers le site de Cyclad (Nouvelle fenêtre)';
+$lang['WORKS_CYCLAD_LINK'] = 'Vers le site de Cyclad (nouvelle fenêtre)';
 
 $lang['WORKS_CENTAURI_TITLE'] = 'Centauri Vision';
 $lang['WORKS_CENTAURI_ALT'] = 'Centauri Vision';
@@ -113,7 +113,7 @@ $lang['WORKS_NEWREBORN_LINK'] = 'Jouer !';
 $lang['WORKS_EVAD_TITLE'] = 'EVAD';
 $lang['WORKS_EVAD_SUBTITLE'] = 'EVAD (avec <a href="http://simon-tr.com" title="Vers le portfolio de Simon Trichereau" target="_blank">Simon Trichereau</a> et <a href="http://audrey-lecuona.com" title="Vers le portfolio d\'Audrey Lecuona" target="_blank">Audrey Lecuona</a>)';
 $lang['WORKS_EVAD_ALT'] = '(avec Simon Trichereau & Audrey Lecuona)';
-$lang['WORKS_EVAD_LINK'] = 'Vers le site de l\'EVAD (Nouvelle fenêtre)';
+$lang['WORKS_EVAD_LINK'] = 'Vers le site de l\'EVAD (nouvelle fenêtre)';
 
 $lang['WORKS_LIMBO_TITLE'] = 'Site Limbo';
 $lang['WORKS_LIMBO_ALT'] = 'Refonte du site officiel du jeu vidéo Limbo';
@@ -121,7 +121,7 @@ $lang['WORKS_LIMBO_DESC'] = 'Exercice de refonte du site officiel du jeu vidéo 
 
 $lang['WORKS_ZEN_TITLE'] = 'Planète Zen';
 $lang['WORKS_ZEN_ALT'] = 'Planète Zen';
-$lang['WORKS_ZEN_LINK'] = 'Vers le site de Planète Zen website (Nouvelle fenêtre)';
+$lang['WORKS_ZEN_LINK'] = 'Vers le site de Planète Zen website (nouvelle fenêtre)';
 
 $lang['WORKS_CAR_ALT'] = 'Infographie';
 $lang['WORKS_CAR_TITLE'] = 'Infographie';
@@ -131,10 +131,11 @@ $lang['WORKS_SPOTTED_TITLE'] = 'SPOTTED!';
 $lang['WORKS_SPOTTED_SUBTITLE'] = '(avec <a href="https://www.youtube.com/user/CubProduction" title="Chaîne YouTube de Quentin Barat" target="_blank">Quentin Barat</a>, <a href="https://www.linkedin.com/in/armanddeborde" title="LinkedIn d\'Armand Deborde" target="_blank">Armand Deborde</a> et <a href="https://www.linkedin.com/in/richard-epain-793696a7/en" title="LinkedIn de Richard Epain" target="_blank">Richard Epain</a>)';
 $lang['WORKS_SPOTTED_ALT'] = 'SPOTTED! Épisode 2';
 $lang['WORKS_SPOTTED_LINK'] = 'Voir l\'épisode';
+$lang['WORKS_SPOTTED_DESC'] = 'Vers le site de SPOTTED! (nouvelle fenêtre)';
 
 //$lang['WORKS_SPOTTED_WEBSITE_TITLE'] = 'Site Officiel SPOTTED!';
 //$lang['WORKS_SPOTTED_WEBSITE_ALT'] = 'Site Officiel SPOTTED!';
-//$lang['WORKS_SPOTTED_WEBSITE_LINK'] = 'Vers le site de SPOTTED! (Nouvelle fenêtre)';
+//$lang['WORKS_SPOTTED_WEBSITE_LINK'] = 'Vers le site de SPOTTED! (nouvelle fenêtre)';
 
 $lang['WORKS_IBANEZ_TITLE'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_ALT'] = 'Ibanez RG7620';
@@ -187,17 +188,17 @@ $lang['CONTACT_SUBTITLE'] = 'Si vous désiriez me contacter, vous êtes au bon e
 $lang['PHONE_TITLE'] = 'Appelez-moi';
 $lang['SKYPE_TITLE'] = 'Appelez-moi via Skype';
 $lang['MAIL_TITLE'] = 'Envoyez-moi un mail';
-$lang['BEHANCE_TITLE'] = 'Vers ma page Behance (Nouvelle fenêtre)';
-$lang['LINKEDIN_TITLE'] = 'Vers ma page LinkedIn (Nouvelle fenêtre)';
-$lang['SOUNDCLOUD_TITLE'] = 'Vers ma page Soundcloud (Nouvelle fenêtre)';
-$lang['YOUTUBE_TITLE'] = 'Vers ma page YouTube (Nouvelle fenêtre)';
+$lang['BEHANCE_TITLE'] = 'Vers ma page Behance (nouvelle fenêtre)';
+$lang['LINKEDIN_TITLE'] = 'Vers ma page LinkedIn (nouvelle fenêtre)';
+$lang['SOUNDCLOUD_TITLE'] = 'Vers ma page Soundcloud (nouvelle fenêtre)';
+$lang['YOUTUBE_TITLE'] = 'Vers ma page YouTube (nouvelle fenêtre)';
 
 // Map
 $lang['MAP_TITLE'] = 'Merci de votre visite';
 $lang['MAP_SUBTITLE'] = 'Passez me dire bonjour si vous passez par Bordeaux, France. C\'est juste ci-dessous !';
 
 // Footer
-$lang['LEGAL_NOTICE_TITLE'] = 'Mentions légales (Nouvelle fenêtre)';
+$lang['LEGAL_NOTICE_TITLE'] = 'Mentions légales (nouvelle fenêtre)';
 $lang['LEGAL_NOTICE'] = 'Mentions légales';
 
 // 404

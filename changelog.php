@@ -5,21 +5,12 @@
             <h1>ChangeLog<span><?php echo $lang['LANGUAGE_NOTICE_ENGLISH']; ?></span></span></h1>
             <h2 class="current-version">Current version :</h2>
             <div class="version">
-                <h3>[2.7b]</h3>
+                <h3>[2.7.1b]</h3>
                 <h4>
                     <em>21-11-18</em>
                 </h4>
-                <p>
-                    <strong>End of alpha, beta version release</strong>
-                </p>
                 <ul>
-                    <li>Transfers assets to a new hosting service</li>
-                    <li>Makes some graphic elements a bit more modern</li>
-                    <li>Fixes a z-index bug on map</li>
-                    <li>Updates assets (and removes obsolete ones)</li>
-                    <li>Updates the scroller animation for a more modern one</li>
-                    <li>Removes the PHP LESS compiler for Prepros</li>
-                    <li>Removes .htaccess configuration</li>
+                    <li>Fixes some links</li>
                 </ul>
             </div>
             
@@ -38,6 +29,24 @@
             </div>
             
             <h2>Previous updates :</h2>
+            <div class="version">
+                <h3>[2.7b]</h3>
+                <h4>
+                    <em>21-11-18</em>
+                </h4>
+                <p>
+                    <strong>End of alpha, beta version release</strong>
+                </p>
+                <ul>
+                    <li>Transfers assets to a new hosting service</li>
+                    <li>Makes some graphic elements a bit more modern</li>
+                    <li>Fixes a z-index bug on map</li>
+                    <li>Updates assets (and removes obsolete ones)</li>
+                    <li>Updates the scroller animation for a more modern one</li>
+                    <li>Removes the PHP LESS compiler for Prepros</li>
+                    <li>Removes .htaccess configuration</li>
+                </ul>
+            </div>
             <div class="version">
                 <h3>2.6.3a</h3>
                 <h4><em>13-05-17</em></h4>
