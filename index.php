@@ -13,7 +13,7 @@
                 <h3><?php echo $lang['HOME_WELCOME_2']; ?></h3>
             </div>
             <div class="cookie">
-                <p><?php echo $lang['COOKIE_TEXT']; ?><a href="http://www.google.fr/analytics/terms/fr.html" target="_blank"><?php echo $lang['COOKIE_MORE']; ?></a></p>
+                <p><?php echo $lang['COOKIE_TEXT']; ?></p>
             </div>
             <a href="#early-access">
                 <span class="icon icon-scroll"></span>

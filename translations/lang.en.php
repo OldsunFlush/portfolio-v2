@@ -32,7 +32,6 @@ $lang['SETTINGS_SUBTITLE_2'] = 'Languages';
 
 // Cookie
 $lang['COOKIE_TEXT'] = 'By continuing your visit of this website, you accept to use cookies to store the selected language.';
-$lang['COOKIE_MORE'] = ' Read more.';
 
 // Home
 $lang['HOME_WELCOME_1'] = 'Pierre Prézelin.';
@@ -137,15 +136,13 @@ $lang['WORKS_IBANEZ_TITLE'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_ALT'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_DESC'] = 'Ibanez electric guitar (RG7620 model). Made with Illustrator.';
 
-$lang['WORKS_MORE'] = 'Full gallery';
-
 // Skills
 $lang['SKILLS_TITLE'] = 'Skills';
 $lang['SKILLS_SUBTITLE'] = 'Here is where I stack things I learn over time , check them out!';
 
 $lang['SKILLS_WEB'] = 'Web';
 $lang['SKILLS_WEB_1'] = 'HTML5';
-$lang['SKILLS_WEB_2'] = 'CSS3 (responsive, mobile first, OOCSS)';
+$lang['SKILLS_WEB_2'] = 'CSS3 (mobile first, OOCSS)';
 $lang['SKILLS_WEB_3'] = 'JavaScript, jQuery';
 $lang['SKILLS_WEB_4'] = 'Preprocessors (Sass, LESS)';
 $lang['SKILLS_WEB_5'] = 'WordPress';

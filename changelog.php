@@ -16,7 +16,6 @@
                     <li>Adds the complete "Options" menu</li>
                     <li>Replaces fancybox.js by PhotoSwipe</li>
                     <li>Replaces SoundCloud by CodePen</li>
-                    <li>Updates the cookie banner to be GDPR compliant</li>
                     <li>Updates content</li>
                 </ul>
             </div>

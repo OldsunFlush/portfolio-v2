@@ -5,7 +5,6 @@ Changelog :
 - Adds the complete "Options" menu
 - Replaces fancybox.js by PhotoSwipe
 - Replaces SoundCloud by CodePen
-- Updates the cookie banner to be GDPR compliant
 - Updates content
 
 /* ------------------------------------------

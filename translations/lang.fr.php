@@ -31,8 +31,7 @@ $lang['SETTINGS_SUBTITLE_1'] = 'Couleurs';
 $lang['SETTINGS_SUBTITLE_2'] = 'Langues';
 
 // Cookie
-$lang['COOKIE_TEXT'] = 'En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies pour conserver la langue choisie.';
-$lang['COOKIE_MORE'] = ' En savoir plus.';
+$lang['COOKIE_TEXT'] = 'En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies pour conserver la langue sélectionnée.';
 
 // Home
 $lang['HOME_WELCOME_1'] = 'Pierre Prézelin.';
@@ -137,15 +136,13 @@ $lang['WORKS_IBANEZ_TITLE'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_ALT'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_DESC'] = 'Guitare électrique Ibanez (modèle RG7620) crée avec Illustrator.';
 
-$lang['WORKS_MORE'] = 'Galerie complète';
-
 // Skills
 $lang['SKILLS_TITLE'] = 'Compétences';
 $lang['SKILLS_SUBTITLE'] = 'Je conserve ici tout ce que j\'apprends au fil du temps.';
 
 $lang['SKILLS_WEB'] = 'Web';
 $lang['SKILLS_WEB_1'] = 'HTML5';
-$lang['SKILLS_WEB_2'] = 'CSS3 (responsive, mobile first, OOCSS)';
+$lang['SKILLS_WEB_2'] = 'CSS3 (mobile first, OOCSS)';
 $lang['SKILLS_WEB_3'] = 'JavaScript, jQuery';
 $lang['SKILLS_WEB_4'] = 'Préprocesseurs (Sass, LESS)';
 $lang['SKILLS_WEB_5'] = 'WordPress';
