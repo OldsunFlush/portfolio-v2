@@ -1,7 +1,7 @@
 		<!-- Footer -->
 		<footer>
             <a href="#home" class="logo logo-main"><img src="images/logos/logo.svg" width="64" height="64" alt="<?php echo $lang['LOGO_ALT']; ?>"/></a>
-            <p>Copyright © 2018 - Pierre PRÉZELIN<br> <span>|</span> <a href="legalnotice.php" title="<?php echo $lang['LEGAL_NOTICE_TITLE']; ?>"><?php echo $lang['LEGAL_NOTICE']; ?></a> <span>|</span> <a href="changelog.php" title="ChangeLog">ChangeLog</a> <span>|</span> v2.7.1b</p>
+            <p>Copyright © 2019 - Pierre PRÉZELIN<br> <span>|</span> <a href="legalnotice.php" title="<?php echo $lang['LEGAL_NOTICE_TITLE']; ?>"><?php echo $lang['LEGAL_NOTICE']; ?></a> <span>|</span> <a href="changelog.php" title="ChangeLog">ChangeLog</a> <span>|</span> v2.8</p>
 		</footer>
 
 		<!-- Scripts -->

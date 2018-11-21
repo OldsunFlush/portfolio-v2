@@ -1,22 +1,19 @@
 Changelog :
 
-[v2.7.1b] (21-11-18)
-- Fixes some links
-
-/* ------------------------------------------
-   Incoming updates
------------------------------------------- */
-
 [v2.8]
 - End of beta, official release
 - Adds the complete "Options" menu
 - Replaces fancybox.js by PhotoSwipe
+- Replaces SoundCloud by CodePen
 - Updates the cookie banner to be GDPR compliant
 - Updates content
 
 /* ------------------------------------------
    Previous updates
 ------------------------------------------ */
+
+[v2.7.1b] (21-11-18)
+- Fixes some links
 
 [v2.7b] (21-11-18)
 - End of alpha, beta version release

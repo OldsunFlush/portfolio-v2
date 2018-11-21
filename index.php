@@ -257,6 +257,7 @@
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_1']; ?></p>
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_2']; ?></p>
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_3']; ?></p>
+                            <p><?php echo $lang['SKILLS_AUDIOVISUAL_4']; ?></p>
                         </section>
                     </li>
                     <li class="list list-item list-skills">

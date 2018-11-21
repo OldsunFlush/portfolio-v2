@@ -5,6 +5,24 @@
             <h1>ChangeLog<span><?php echo $lang['LANGUAGE_NOTICE_ENGLISH']; ?></span></span></h1>
             <h2 class="current-version">Current version :</h2>
             <div class="version">
+                <h3>[2.8]</h3>
+                <h4>
+                    <em>xx-xx-xx</em>
+                </h4>
+                <p>
+                    <strong>End of beta, official release</strong>
+                </p>
+                <ul>
+                    <li>Adds the complete "Options" menu</li>
+                    <li>Replaces fancybox.js by PhotoSwipe</li>
+                    <li>Replaces SoundCloud by CodePen</li>
+                    <li>Updates the cookie banner to be GDPR compliant</li>
+                    <li>Updates content</li>
+                </ul>
+            </div>
+            
+            <h2>Previous updates :</h2>
+            <div class="version">
                 <h3>[2.7.1b]</h3>
                 <h4>
                     <em>21-11-18</em>
@@ -13,22 +31,6 @@
                     <li>Fixes some links</li>
                 </ul>
             </div>
-            
-            <h2>Incoming updates :</h2>
-            <div class="version">
-                <h3>[2.8]</h3>
-                <p>
-                    <strong>End of beta, official release</strong>
-                </p>
-                <ul>
-                    <li>Adds the complete "Options" menu</li>
-                    <li>Replaces fancybox.js by PhotoSwipe</li>
-                    <li>Updates the cookie banner to be GDPR compliant</li>
-                    <li>Updates content</li>
-                </ul>
-            </div>
-            
-            <h2>Previous updates :</h2>
             <div class="version">
                 <h3>[2.7b]</h3>
                 <h4>

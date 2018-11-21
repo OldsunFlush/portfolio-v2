@@ -133,10 +133,6 @@ $lang['WORKS_SPOTTED_ALT'] = 'SPOTTED! Episode 2';
 $lang['WORKS_SPOTTED_LINK'] = 'Watch the episode';
 $lang['WORKS_SPOTTED_DESC'] = 'To the SPOTTED! website (new window)';
 
-//$lang['WORKS_SPOTTED_WEBSITE_TITLE'] = 'SPOTTED! Offical website';
-//$lang['WORKS_SPOTTED_WEBSITE_ALT'] = 'SPOTTED! Offical website';
-//$lang['WORKS_SPOTTED_WEBSITE_LINK'] = 'To the SPOTTED! website (new window)';
-
 $lang['WORKS_IBANEZ_TITLE'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_ALT'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_DESC'] = 'Ibanez electric guitar (RG7620 model). Made with Illustrator.';
@@ -156,15 +152,17 @@ $lang['SKILLS_WEB_5'] = 'WordPress';
 $lang['SKILLS_WEB_6'] = 'Git';
 
 $lang['SKILLS_DESIGN'] = 'Graphic design';
-$lang['SKILLS_DESIGN_1'] = 'Photoshop';
-$lang['SKILLS_DESIGN_2'] = 'Illustrator';
-$lang['SKILLS_DESIGN_3'] = 'InDesign';
-$lang['SKILLS_DESIGN_4'] = '3DS Max';
+$lang['SKILLS_DESIGN_1'] = 'Sketch, Figma';
+$lang['SKILLS_DESIGN_2'] = 'Photoshop';
+$lang['SKILLS_DESIGN_3'] = 'Illustrator';
+$lang['SKILLS_DESIGN_4'] = 'InDesign';
+
 
 $lang['SKILLS_AUDIOVISUAL'] = 'Sound, Video & FX';
-$lang['SKILLS_AUDIOVISUAL_1'] = 'Premiere Pro';
-$lang['SKILLS_AUDIOVISUAL_2'] = 'After Effects';
-$lang['SKILLS_AUDIOVISUAL_3'] = 'DAW (Reaper, Pro Tools, FL Studio)';
+$lang['SKILLS_AUDIOVISUAL_1'] = 'DAW (Reaper, Pro Tools, FL Studio)';
+$lang['SKILLS_AUDIOVISUAL_2'] = 'Premiere Pro';
+$lang['SKILLS_AUDIOVISUAL_3'] = 'After Effects';
+$lang['SKILLS_AUDIOVISUAL_4'] = '3DS Max';
 
 $lang['SKILLS_COM'] = 'Communication';
 $lang['SKILLS_COM_1'] = 'Search Engine Optimization (SEO)';
