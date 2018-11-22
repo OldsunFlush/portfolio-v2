@@ -109,6 +109,11 @@ $lang['WORKS_NEWREBORN_ALT'] = 'New Reborn';
 $lang['WORKS_NEWREBORN_DESC'] = 'Un jeu de plates-formes dans le thème cyberpunk, développé en JavaScript, HTML et CSS.';
 $lang['WORKS_NEWREBORN_LINK'] = 'Jouer !';
 
+$lang['WORKS_VETOGEEK_TITLE'] = 'Vetogeek';
+$lang['WORKS_VETOGEEK_ALT'] = 'Vetogeek';
+$lang['WORKS_VETOGEEK_DESC'] = 'Un logo crée pour une page Facebook sur l\'actualité scientifique en médecine vétérinaire.';
+$lang['WORKS_VETOGEEK_LINK'] = 'Vers la page Facebook de Vetogeek (nouvelle fenêtre)';
+
 $lang['WORKS_EVAD_TITLE'] = 'EVAD';
 $lang['WORKS_EVAD_SUBTITLE'] = 'EVAD (avec <a href="http://simon-tr.com" title="Vers le portfolio de Simon Trichereau" target="_blank">Simon Trichereau</a> et <a href="http://audrey-lecuona.com" title="Vers le portfolio d\'Audrey Lecuona" target="_blank">Audrey Lecuona</a>)';
 $lang['WORKS_EVAD_ALT'] = '(avec Simon Trichereau & Audrey Lecuona)';

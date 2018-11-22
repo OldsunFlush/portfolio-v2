@@ -145,6 +145,16 @@
                             </ul>
                         </div>
                     </li><!--
+                    --><li class="list list-item list-works graphic">
+                        <img src="images/works/vetogeek.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_VETOGEEK_ALT']; ?>">
+                        <div class="works-overlay">
+                            <h4><?php echo $lang['WORKS_VETOGEEK_TITLE']; ?></h4>
+                            <ul class="list">
+                                <li class="list list-item more-item"><a href="images/works/vetogeek_big.jpg" data-fancybox title="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>"></a></li>
+                                <li class="list list-item link-item"><a href="https://www.facebook.com/Vetogeek/?eid=ARBoadV2EVq73zGJlsSZnBHTaEM8osBBIyBmSGHOo1fsL1JJ8yR0tTodxgn6-2VGmptbS2YmqaIj9M3u&fref=tag" title="<?php echo $lang['WORKS_VETOGEEK_LINK']; ?>" target="_blank"></a></li>
+                            </ul>
+                        </div>
+                    </li><!--
                     --><li class="list list-item list-works dev">
                         <img src="images/works/evad.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_EVAD_ALT']; ?>">
                         <div class="works-overlay">
