@@ -36,6 +36,7 @@
                 sidemenuToggle: $('a.sidemenu-toggle'),
                 settingsMenu: $('.settings-menu'),
                 settingsToggle: $('a.settings-toggle'),
+                switchSecretPunchline: $('[data-toggle="secret-punchline"]'),
                 switchEarlyAccess: $('[data-toggle="early-access"]'),
                 cookie: $('.cookie'),
                 cookieValidator: $('.cookie a:last'),
@@ -43,7 +44,8 @@
                 backTop: $('a.btn-up'),
                 scrollDownArrow: $('a.icon-down-arrow'),
                 parallaxedBackground: $('section.is-parallaxed'),
-                earlyAccess: $('section.section-early-access'),
+                punchline: $('#punchline'),
+                earlyAccess: $('#early-access'),
                 steamGotIt: $('a.btn-steam'),
                 workFilter: $('.list-filters'),
                 workSample: $('.list-works'),
@@ -153,6 +155,17 @@
         customSettings: function() {
             var self = this;
 
+            // Secret punchline
+            function toggleSecretPunchline() {
+                self.elements.punchline.toggleClass('is-hidden');
+            }
+
+            self.elements.switchSecretPunchline.change(function() {
+                toggleSecretPunchline();
+                return false;
+            });
+
+            // Early Access
             function toggleEarlyAccess() {
                 self.elements.earlyAccess.slideToggle('500', 'swing');
             }

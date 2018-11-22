@@ -26,7 +26,8 @@ $lang['MENU_CONTACT'] = 'Contact';
 $lang['OVERLAY_TITLE'] = 'Customize<br>your experience';
 $lang['SETTINGS_TOGGLE'] = 'Toggle settings';
 $lang['SETTINGS_TITLE'] = 'Settings';
-$lang['SETTINGS_SWITCH_STEAM'] = 'Early Access (obsolete)';
+$lang['SETTINGS_SWITCH_SECRET_PUNCHLINE'] = 'Secret punchline /s';
+$lang['SETTINGS_SWITCH_EARLY_ACCESS'] = 'Early Access (obsolete)';
 
 // Cookie
 $lang['COOKIE_TEXT'] = 'By continuing your visit of this website, you accept to use cookies to store the selected language.';

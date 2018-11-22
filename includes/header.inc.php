@@ -64,7 +64,10 @@
                 </section>
                 <section class="switch-selector">
                     <label class="switch">
-                        <input type="checkbox" data-toggle="early-access"><i class="icon"></i> <?php echo $lang['SETTINGS_SWITCH_STEAM']; ?>
+                        <input type="checkbox" data-toggle="secret-punchline"><i class="icon"></i> <?php echo $lang['SETTINGS_SWITCH_SECRET_PUNCHLINE']; ?>
+                    </label>
+                    <label class="switch">
+                        <input type="checkbox" data-toggle="early-access"><i class="icon"></i> <?php echo $lang['SETTINGS_SWITCH_EARLY_ACCESS']; ?>
                     </label>
                 </section>
             </div>
