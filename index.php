@@ -29,7 +29,7 @@
         </section>
 
         <!-- Early Access Portfolio -->
-        <section class="section-early-access" id="early-access">
+        <section class="section-early-access is-hidden" id="early-access">
             <section>
                 <div class="row-small">
                     <h2><?php echo $lang['EARLY_ACCESS_TITLE']; ?></h2>
