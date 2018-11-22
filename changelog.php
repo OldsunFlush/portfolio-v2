@@ -16,6 +16,9 @@
                     <li>Adds the complete "Options" menu</li>
                     <li>Replaces fancybox.js by PhotoSwipe</li>
                     <li>Replaces SoundCloud by CodePen</li>
+                    <li>Replaces YouTube by GitHub</li>
+                    <li>Optimizes responsive for large screens</li>
+                    <li>Hides Steam Early Access section by default</li>
                     <li>Updates content</li>
                 </ul>
             </div>

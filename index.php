@@ -335,6 +335,11 @@
                     </li>
                     <li class="list list-item list-item-contact contact-social">
                         <ul class="list">
+                            <li class="list-item list-item-social social-github">
+                                <a href="https://github.com/OldsunFlush" title="<?php echo $lang['GITHUB_TITLE']; ?>" target="_blank">
+                                    <i class="fa fa-github fa-2x"></i>
+                                </a>
+                            </li>
                             <li class="list-item list-item-social social-codepen">
                                 <a href="https://codepen.io/OldsunFlush/" title="<?php echo $lang['CODEPEN_TITLE']; ?>" target="_blank">
                                     <i class="fa fa-codepen fa-2x"></i>
@@ -348,11 +353,6 @@
                             <li class="list-item list-item-social social-linkedin">
                                 <a href="https://www.linkedin.com/pub/pierre-pr%C3%A9zelin/85/902/612" title="<?php echo $lang['LINKEDIN_TITLE']; ?>" target="_blank">
                                     <i class="fa fa-linkedin fa-2x"></i>
-                                </a>
-                            </li>
-                            <li class="list-item list-item-social social-youtube">
-                                <a href="https://www.youtube.com/channel/UCeKlBHuoEFoqZp35I2rLNPw" title="<?php echo $lang['YOUTUBE_TITLE']; ?>" target="_blank">
-                                    <i class="fa fa-youtube fa-2x"></i>
                                 </a>
                             </li>
                         </ul>

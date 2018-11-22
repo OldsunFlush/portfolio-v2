@@ -40,6 +40,12 @@
     }
 }
 
+@media (min-width: @largeMin) {
+    .list-filters {
+        margin-bottom: 1.5rem;
+    }
+}
+
 .list-works {
     position: relative;
     width: 20%;
@@ -222,7 +228,8 @@
         width: 55rem;
         height: 55rem;
         float: none;
-        margin: 0 auto;
+        margin: 1.5rem .75rem 0;
+        border-radius: .5rem;
     }
 }
 @media (max-width: @desktopMax) {
@@ -492,6 +499,9 @@
 .list-item-social {
     display: block;
 
+    &.social-github a {
+        background-color: @github;
+    }
     &.social-codepen a {
         background-color: @codepen;
     }
@@ -500,9 +510,6 @@
     }
     &.social-linkedin a {
         background-color: @linkedin;
-    }
-    &.social-youtube a {
-        background-color: @youtube;
     }
 
     a {

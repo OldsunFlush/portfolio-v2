@@ -5,6 +5,9 @@ Changelog :
 - Adds the complete "Options" menu
 - Replaces fancybox.js by PhotoSwipe
 - Replaces SoundCloud by CodePen
+- Replaces YouTube by GitHub
+- Optimizes responsive for large screens
+- Hides Steam Early Access section by default
 - Updates content
 
 /* ------------------------------------------
