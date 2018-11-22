@@ -20,14 +20,6 @@
             </a>
         </section>
 
-        <!-- Punchline -->
-        <section class="section-punchline is-ninja" id="punchline">
-            <div class="row">
-                <h2><?php echo $lang['PUNCHLINE_TEXT_1']; ?></h2>
-                <h1><?php echo $lang['PUNCHLINE_TEXT_2']; ?></h1>
-            </div>
-        </section>
-
         <!-- Early Access Portfolio -->
         <section class="section-early-access is-hidden" id="early-access">
             <section>

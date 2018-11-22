@@ -26,9 +26,7 @@ $lang['MENU_CONTACT'] = 'Contact';
 $lang['OVERLAY_TITLE'] = 'Customize<br>your experience';
 $lang['SETTINGS_TOGGLE'] = 'Toggle settings';
 $lang['SETTINGS_TITLE'] = 'Settings';
-$lang['SETTINGS_NOTE'] = 'More coming soon';
-$lang['SETTINGS_SUBTITLE_1'] = 'Color scheme';
-$lang['SETTINGS_SUBTITLE_2'] = 'Languages';
+$lang['SETTINGS_SWITCH_STEAM'] = 'Early Access (obsolete)';
 
 // Cookie
 $lang['COOKIE_TEXT'] = 'By continuing your visit of this website, you accept to use cookies to store the selected language.';
@@ -36,10 +34,6 @@ $lang['COOKIE_TEXT'] = 'By continuing your visit of this website, you accept to 
 // Home
 $lang['HOME_WELCOME_1'] = 'Pierre Prézelin.';
 $lang['HOME_WELCOME_2'] = 'Front-end Developer // Webdesigner';
-
-// Punchline
-$lang['PUNCHLINE_TEXT_1'] = 'I <strong>code</strong>, I <strong>design</strong> and';
-$lang['PUNCHLINE_TEXT_2'] = 'I iz <span>dolan</span>.';
 
 // Early Access
 $lang['EARLY_ACCESS_TITLE'] = 'Early Access Portfolio';

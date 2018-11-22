@@ -56,19 +56,16 @@
                 </ul>
             </nav>
             <div class="settings-menu">
-                <h2><?php echo $lang['SETTINGS_TITLE']; ?><span><?php echo $lang['SETTINGS_NOTE']; ?></span></h2>
-                <section>
-                    <h3><?php //echo $lang['SETTINGS_SUBTITLE_1']; ?></h3>
+                <h2><?php echo $lang['SETTINGS_TITLE']; ?></h2>
+                <section class="language-selector">
+                    <a href="index.php?lang=fr">FR</a>
+                    <span> / </span>
+                    <a href="index.php?lang=en">EN</a>
                 </section>
-                <section>
-                    <h3><?php //echo $lang['SETTINGS_SUBTITLE_2']; ?></h3>
-                </section>
-                <section>
-                    <div class="language-selector">
-                        <a href="index.php?lang=fr">FR</a>
-                        <span> / </span>
-                        <a href="index.php?lang=en">EN</a>
-                    </div>
+                <section class="switch-selector">
+                    <label class="switch">
+                        <input type="checkbox" data-toggle="early-access"><i class="icon"></i> <?php echo $lang['SETTINGS_SWITCH_STEAM']; ?>
+                    </label>
                 </section>
             </div>
             <a href="#" class="sidemenu-toggle">

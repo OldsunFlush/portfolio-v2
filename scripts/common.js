@@ -36,6 +36,7 @@
                 sidemenuToggle: $('a.sidemenu-toggle'),
                 settingsMenu: $('.settings-menu'),
                 settingsToggle: $('a.settings-toggle'),
+                switchEarlyAccess: $('[data-toggle="early-access"]'),
                 cookie: $('.cookie'),
                 cookieValidator: $('.cookie a:last'),
                 overlay: $('div.header-overlay'),
@@ -53,9 +54,6 @@
             // Smooth scroll
             this.elements.anchorLink.smoothScroll();
 
-            // Fancybox
-            //this.fancybox();
-
             // Header resize on scroll
             this.headerResize();
 
@@ -66,16 +64,13 @@
             this.sideMenus();
 
             // Settings
-            //this.customSettings();
+            this.customSettings();
 
             // Background parallaxes
             this.parallaxBackground();
 
             // Steam 'Got it'
             this.gotIt();
-
-            // Work highlight
-            //this.workHighlight();
 
             // Works filters
             this.worksFilters();
@@ -155,9 +150,18 @@
                 });
             }
         },
-        /*customSettings: function() {
+        customSettings: function() {
             var self = this;
-        },*/
+
+            function toggleEarlyAccess() {
+                self.elements.earlyAccess.slideToggle('500', 'swing');
+            }
+
+            self.elements.switchEarlyAccess.change(function() {
+                toggleEarlyAccess();
+                return false;
+            });
+        },
         parallaxBackground: function() {
             var self = this;
 
@@ -177,31 +181,12 @@
             self.elements.steamGotIt.on('click', function(event) {
                 event.preventDefault();
 
+                self.elements.switchEarlyAccess.prop('checked', false);
                 self.elements.earlyAccess.slideToggle('500', 'swing', function() {
                     self.elements.scrollDownArrow.attr('href', '#about');
                 });
             });
         },
-        /*workHighlight: function() {
-            var workTitle, workDesc, workTools, workImage;
-
-            $('li.list-works li.more-item').click(function() {
-                workTitle = $(this).closest('div').find('p').html();
-                workDesc  = $(this).closest('div').find('blockquote').html();
-                workTools = $(this).closest('div').find('blockquote').data('tools');
-
-                $('.work-title').html(workTitle);
-                $('.work-description').html(workDesc);
-                $('.work-tools').html('<strong><em>Outils: </em></strong>' + workTools);
-            });
-
-            $('li.list-works div.works-overlay li.more-item').click(function(){
-                $('.highlighted-work').find('img').each(function(){
-                    var imgClass = (this.width/this.height > 1) ? 'wide' : 'tall';
-                    $(this).addClass(imgClass);
-                });
-            });
-        },*/
         worksFilters: function() {
             var self = this;
 

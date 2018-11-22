@@ -26,9 +26,7 @@ $lang['MENU_CONTACT'] = 'Contact';
 $lang['OVERLAY_TITLE'] = 'Personnalisez<br>votre expérience';
 $lang['SETTINGS_TOGGLE'] = 'Afficher les options';
 $lang['SETTINGS_TITLE'] = 'Options';
-$lang['SETTINGS_NOTE'] = 'De nouvelles options à venir';
-$lang['SETTINGS_SUBTITLE_1'] = 'Couleurs';
-$lang['SETTINGS_SUBTITLE_2'] = 'Langues';
+$lang['SETTINGS_SWITCH_STEAM'] = 'Accès anticipé (obsolète)';
 
 // Cookie
 $lang['COOKIE_TEXT'] = 'En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies pour conserver la langue sélectionnée.';
@@ -36,10 +34,6 @@ $lang['COOKIE_TEXT'] = 'En poursuivant votre navigation sur ce site, vous accept
 // Home
 $lang['HOME_WELCOME_1'] = 'Pierre Prézelin.';
 $lang['HOME_WELCOME_2'] = 'Intégrateur // Webdesigner';
-
-// Punchline
-$lang['PUNCHLINE_TEXT_1'] = 'Malheureusement, la punchline secrète est <strong>intraduisible</strong> en <strong>français</strong> !';
-$lang['PUNCHLINE_TEXT_2'] = '';
 
 // Early Access
 $lang['EARLY_ACCESS_TITLE'] = 'Portfolio avec accès anticipé';
