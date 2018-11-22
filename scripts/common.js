@@ -36,6 +36,7 @@
                 sidemenuToggle: $('a.sidemenu-toggle'),
                 settingsMenu: $('.settings-menu'),
                 settingsToggle: $('a.settings-toggle'),
+                switchNightMode: $('[data-toggle="night-mode"]'),
                 switchSecretPunchline: $('[data-toggle="secret-punchline"]'),
                 switchEarlyAccess: $('[data-toggle="early-access"]'),
                 cookie: $('.cookie'),
@@ -154,6 +155,16 @@
         },
         customSettings: function() {
             var self = this;
+
+            // Night mode
+            function toggleNightMode() {
+                self.elements.body.toggleClass('night-mode');
+            }
+
+            self.elements.switchNightMode.change(function() {
+                toggleNightMode();
+                return false;
+            });
 
             // Secret punchline
             function toggleSecretPunchline() {

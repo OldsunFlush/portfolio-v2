@@ -64,11 +64,15 @@
                 </section>
                 <section class="switch-selector">
                     <label class="switch">
+                        <input type="checkbox" data-toggle="night-mode"><i class="icon"></i> <?php echo $lang['SETTINGS_SWITCH_NIGHT_MODE']; ?>
+                    </label>
+                    <label class="switch">
                         <input type="checkbox" data-toggle="secret-punchline"><i class="icon"></i> <?php echo $lang['SETTINGS_SWITCH_SECRET_PUNCHLINE']; ?>
                     </label>
                     <label class="switch">
                         <input type="checkbox" data-toggle="early-access"><i class="icon"></i> <?php echo $lang['SETTINGS_SWITCH_EARLY_ACCESS']; ?>
                     </label>
+                    <span class="version-number">v2.8</span>
                 </section>
             </div>
             <a href="#" class="sidemenu-toggle">

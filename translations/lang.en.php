@@ -26,6 +26,7 @@ $lang['MENU_CONTACT'] = 'Contact';
 $lang['OVERLAY_TITLE'] = 'Customize<br>your experience';
 $lang['SETTINGS_TOGGLE'] = 'Toggle settings';
 $lang['SETTINGS_TITLE'] = 'Settings';
+$lang['SETTINGS_SWITCH_NIGHT_MODE'] = 'Night mode';
 $lang['SETTINGS_SWITCH_SECRET_PUNCHLINE'] = 'Secret punchline /s';
 $lang['SETTINGS_SWITCH_EARLY_ACCESS'] = 'Early Access (obsolete)';
 
