@@ -40,10 +40,9 @@
 
 		<!-- General stylesheets -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-        <link rel="stylesheet" href="styles/styles.css">
-        <link rel="stylesheet" href="styles/vendors/photoswipe/photoswipe.css">
-        <link rel="stylesheet" href="styles/vendors/photoswipe/default-skin/default-skin.css">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css" />
+        <link rel="stylesheet" href="styles/vendors/strip/strip.css" />
+        <link rel="stylesheet" href="styles/styles.css" />
 	</head>
 	<body>
         <!-- Header -->

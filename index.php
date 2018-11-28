@@ -91,8 +91,12 @@
                             <h4><?php echo $lang['WORKS_VOXOFFICE_TITLE']; ?></h4>
                             <p><?php echo $lang['WORKS_VOXOFFICE_SUBTITLE']; ?></p>
                             <ul class="list">
-                                <li class="list list-item more-item"><a href="https://www.behance.net/gallery/33909780/VoxOffice" title="<?php echo $lang['WORKS_VOXOFFICE_DESC']; ?>" target="_blank"></a></li>
-                                <li class="list list-item link-item"><a href="http://www.voxoffice.fr/" title="<?php echo $lang['WORKS_VOXOFFICE_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item more-item">
+                                    <a href="https://www.behance.net/gallery/33909780/VoxOffice" title="<?php echo $lang['WORKS_VOXOFFICE_DESC']; ?>" target="_blank"></a>
+                                </li>
+                                <li class="list list-item link-item">
+                                    <a href="http://www.voxoffice.fr/" title="<?php echo $lang['WORKS_VOXOFFICE_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -102,7 +106,9 @@
                             <h4><?php echo $lang['WORKS_AUREA_TITLE']; ?></h4>
                             <p><?php echo $lang['WORKS_AUREA_SUBTITLE']; ?></p>
                             <ul class="list">
-                                <li class="list list-item link-item"><a href="https://aurea.eu" title="<?php echo $lang['WORKS_AUREA_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item link-item">
+                                    <a href="https://aurea.eu" title="<?php echo $lang['WORKS_AUREA_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -112,7 +118,9 @@
                             <h4><?php echo $lang['WORKS_JAB_TITLE']; ?></h4>
                             <p><?php echo $lang['WORKS_JAB_SUBTITLE']; ?></p>
                             <ul class="list">
-                                <li class="list list-item link-item"><a href="http://armele-loick.rc2c.fr/index.html" title="<?php echo $lang['WORKS_JAB_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item link-item">
+                                    <a href="http://armele-loick.rc2c.fr/index.html" title="<?php echo $lang['WORKS_JAB_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -122,7 +130,9 @@
                             <h4><?php echo $lang['WORKS_CYCLAD_TITLE']; ?></h4>
                             <p><?php echo $lang['WORKS_CYCLAD_SUBTITLE']; ?></p>
                             <ul class="list">
-                                <li class="list list-item link-item"><a href="http://bacs-cyclad.fr" title="<?php echo $lang['WORKS_CYCLAD_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item link-item">
+                                    <a href="http://bacs-cyclad.fr" title="<?php echo $lang['WORKS_CYCLAD_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -131,8 +141,12 @@
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_CENTAURI_TITLE']; ?></h4>
                             <ul class="list">
-                                <li class="list list-item more-item"><a href="images/works/centauri_big.jpg" data-fancybox title="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>"></a></li>
-                                <li class="list list-item link-item"><a href="https://soundcloud.com/centauri-vision" title="<?php echo $lang['WORKS_CENTAURI_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item more-item">
+                                    <a href="images/works/centauri_big.jpg" class="strip" title="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>"></a>
+                                </li>
+                                <li class="list list-item link-item">
+                                    <a href="https://soundcloud.com/centauri-vision" title="<?php echo $lang['WORKS_CENTAURI_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -141,8 +155,12 @@
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_NEWREBORN_TITLE']; ?></h4>
                             <ul class="list">
-                                <li class="list list-item more-item"><a href="images/works/animation_big.jpg" data-fancybox title="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>"></a></li>
-                                <li class="list list-item link-item"><a href="http://pierre-prezelin.com/src/new-reborn" title="<?php echo $lang['WORKS_NEWREBORN_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item more-item">
+                                    <a href="images/works/animation_big.jpg" class="strip" title="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>"></a>
+                                </li>
+                                <li class="list list-item link-item">
+                                    <a href="http://pierre-prezelin.com/src/new-reborn" title="<?php echo $lang['WORKS_NEWREBORN_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -151,8 +169,12 @@
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_VETOGEEK_TITLE']; ?></h4>
                             <ul class="list">
-                                <li class="list list-item more-item"><a href="images/works/vetogeek_big.jpg" data-fancybox title="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>"></a></li>
-                                <li class="list list-item link-item"><a href="https://www.facebook.com/Vetogeek/?eid=ARBoadV2EVq73zGJlsSZnBHTaEM8osBBIyBmSGHOo1fsL1JJ8yR0tTodxgn6-2VGmptbS2YmqaIj9M3u&fref=tag" title="<?php echo $lang['WORKS_VETOGEEK_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item more-item">
+                                    <a href="images/works/vetogeek_big.jpg" class="strip" title="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>"></a>
+                                </li>
+                                <li class="list list-item link-item">
+                                    <a href="https://www.facebook.com/Vetogeek/?eid=ARBoadV2EVq73zGJlsSZnBHTaEM8osBBIyBmSGHOo1fsL1JJ8yR0tTodxgn6-2VGmptbS2YmqaIj9M3u&fref=tag" title="<?php echo $lang['WORKS_VETOGEEK_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -162,7 +184,9 @@
                             <h4><?php echo $lang['WORKS_EVAD_TITLE']; ?></h4>
                             <p><?php echo $lang['WORKS_EVAD_SUBTITLE']; ?></p>
                             <ul class="list">
-                                <li class="list list-item link-item"><a href="http://evad-ensemble.fr/" title="<?php echo $lang['WORKS_EVAD_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item link-item">
+                                    <a href="http://evad-ensemble.fr/" title="<?php echo $lang['WORKS_EVAD_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -172,7 +196,7 @@
                             <h4><?php echo $lang['WORKS_LIMBO_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/limbo_big.jpg" data-fancybox title="<?php echo $lang['WORKS_LIMBO_DESC']; ?>"></a>
+                                    <a href="images/works/limbo_big.jpg" class="strip" title="<?php echo $lang['WORKS_LIMBO_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -182,7 +206,9 @@
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_ZEN_TITLE']; ?></h4>
                             <ul class="list">
-                                <li class="list list-item link-item"><a href="http://pierre-prezelin.com/src/planete-zen/" title="<?php echo $lang['WORKS_ZEN_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item link-item">
+                                    <a href="http://pierre-prezelin.com/src/planete-zen/" title="<?php echo $lang['WORKS_ZEN_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -192,7 +218,7 @@
                             <h4><?php echo $lang['WORKS_CAR_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/infographic_cars_big.jpg" data-fancybox title="<?php echo $lang['WORKS_CAR_DESC']; ?>"></a>
+                                    <a href="images/works/infographic_cars_big.jpg" class="strip" title="<?php echo $lang['WORKS_CAR_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -203,8 +229,12 @@
                             <h4><?php echo $lang['WORKS_SPOTTED_TITLE']; ?></h4>
                             <p><?php echo $lang['WORKS_SPOTTED_SUBTITLE']; ?></p>
                             <ul class="list">
-                                <li class="list list-item more-item"><a href="http://pierre-prezelin.com/src/spotted" title="<?php echo $lang['WORKS_SPOTTED_DESC']; ?>" target="_blank"></a></li>
-                                <li class="list list-item link-item"><a href="https://vimeo.com/90727720" title="<?php echo $lang['WORKS_SPOTTED_LINK']; ?>" target="_blank"></a></li>
+                                <li class="list list-item more-item">
+                                    <a href="http://pierre-prezelin.com/src/spotted" title="<?php echo $lang['WORKS_SPOTTED_DESC']; ?>" target="_blank"></a>
+                                </li>
+                                <li class="list list-item link-item">
+                                    <a href="https://vimeo.com/90727720" title="<?php echo $lang['WORKS_SPOTTED_LINK']; ?>" target="_blank"></a>
+                                </li>
                             </ul>
                         </div>
                     </li><!--
@@ -214,7 +244,7 @@
                             <h4><?php echo $lang['WORKS_IBANEZ_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/ibanez_big.jpg" data-fancybox title="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>"></a>
+                                    <a href="images/works/ibanez_big.jpg" class="strip" title="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -222,42 +252,6 @@
                 </ul>
             </div>
         </section>
-
-        <!-- PhotoSwipe -->
-        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="pswp__bg"></div>
-            <div class="pswp__scroll-wrap">
-                <div class="pswp__container">
-                    <div class="pswp__item"></div>
-                    <div class="pswp__item"></div>
-                    <div class="pswp__item"></div>
-                </div>
-                <div class="pswp__ui pswp__ui--hidden">
-                    <div class="pswp__top-bar">
-                        <div class="pswp__counter"></div>
-                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                        <button class="pswp__button pswp__button--share" title="Share"></button>
-                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                        <div class="pswp__preloader">
-                            <div class="pswp__preloader__icn">
-                                <div class="pswp__preloader__cut">
-                                    <div class="pswp__preloader__donut"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                        <div class="pswp__share-tooltip"></div> 
-                    </div>
-                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                    <div class="pswp__caption">
-                        <div class="pswp__caption__center"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Skills -->
         <section class="section section-skills" id="skills">

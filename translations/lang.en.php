@@ -139,7 +139,7 @@ $lang['WORKS_IBANEZ_DESC'] = 'Ibanez electric guitar (RG7620 model). Made with I
 
 // Skills
 $lang['SKILLS_TITLE'] = 'Skills';
-$lang['SKILLS_SUBTITLE'] = 'Here is where I stack things I learn over time , check them out!';
+$lang['SKILLS_SUBTITLE'] = 'Here is where I stack things I learn over time, check them out!';
 
 $lang['SKILLS_WEB'] = 'Web';
 $lang['SKILLS_WEB_1'] = 'HTML5';
