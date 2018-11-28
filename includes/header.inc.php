@@ -34,13 +34,16 @@
         <meta name="theme-color" content="#202a37">
 
 		<!-- Fonts -->
-        <link href="http://fonts.googleapis.com/css?family=Raleway:300,400,700,800" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,400italic,700,700italic" rel="stylesheet" type="text/css">
-	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,400italic,700,700italic">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!-- General stylesheets -->
-        <link href="styles/styles.css" rel="stylesheet" type="text/css">
-	    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/vendors/photoswipe/photoswipe.css">
+        <link rel="stylesheet" href="styles/vendors/photoswipe/default-skin/default-skin.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css" />
 	</head>
 	<body>
         <!-- Header -->
