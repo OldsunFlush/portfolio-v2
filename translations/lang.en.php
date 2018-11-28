@@ -132,6 +132,7 @@ $lang['WORKS_SPOTTED_SUBTITLE'] = '(with <a href="https://www.youtube.com/user/C
 $lang['WORKS_SPOTTED_ALT'] = 'SPOTTED! Episode 2';
 $lang['WORKS_SPOTTED_LINK'] = 'Watch the episode';
 $lang['WORKS_SPOTTED_DESC'] = 'To the SPOTTED! website (new window)';
+$lang['WORKS_SPOTTED_DESC_EPISODE'] = 'Episode 2/3';
 
 $lang['WORKS_IBANEZ_TITLE'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_ALT'] = 'Ibanez RG7620';

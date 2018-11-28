@@ -142,7 +142,7 @@
                             <h4><?php echo $lang['WORKS_CENTAURI_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/centauri_big.jpg" class="strip" title="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>"></a>
+                                    <a href="images/works/centauri_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>" title="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>"></a>
                                 </li>
                                 <li class="list list-item link-item">
                                     <a href="https://soundcloud.com/centauri-vision" title="<?php echo $lang['WORKS_CENTAURI_LINK']; ?>" target="_blank"></a>
@@ -156,7 +156,7 @@
                             <h4><?php echo $lang['WORKS_NEWREBORN_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/animation_big.jpg" class="strip" title="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>"></a>
+                                    <a href="images/works/animation_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>" title="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>"></a>
                                 </li>
                                 <li class="list list-item link-item">
                                     <a href="http://pierre-prezelin.com/src/new-reborn" title="<?php echo $lang['WORKS_NEWREBORN_LINK']; ?>" target="_blank"></a>
@@ -170,7 +170,7 @@
                             <h4><?php echo $lang['WORKS_VETOGEEK_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/vetogeek_big.jpg" class="strip" title="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>"></a>
+                                    <a href="images/works/vetogeek_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>" title="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>"></a>
                                 </li>
                                 <li class="list list-item link-item">
                                     <a href="https://www.facebook.com/Vetogeek/?eid=ARBoadV2EVq73zGJlsSZnBHTaEM8osBBIyBmSGHOo1fsL1JJ8yR0tTodxgn6-2VGmptbS2YmqaIj9M3u&fref=tag" title="<?php echo $lang['WORKS_VETOGEEK_LINK']; ?>" target="_blank"></a>
@@ -196,7 +196,7 @@
                             <h4><?php echo $lang['WORKS_LIMBO_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/limbo_big.jpg" class="strip" title="<?php echo $lang['WORKS_LIMBO_DESC']; ?>"></a>
+                                    <a href="images/works/limbo_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_LIMBO_DESC']; ?>" title="<?php echo $lang['WORKS_LIMBO_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -218,7 +218,7 @@
                             <h4><?php echo $lang['WORKS_CAR_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/infographic_cars_big.jpg" class="strip" title="<?php echo $lang['WORKS_CAR_DESC']; ?>"></a>
+                                    <a href="images/works/infographic_cars_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_CAR_DESC']; ?>" title="<?php echo $lang['WORKS_CAR_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -233,7 +233,18 @@
                                     <a href="http://pierre-prezelin.com/src/spotted" title="<?php echo $lang['WORKS_SPOTTED_DESC']; ?>" target="_blank"></a>
                                 </li>
                                 <li class="list list-item link-item">
-                                    <a href="https://vimeo.com/90727720" title="<?php echo $lang['WORKS_SPOTTED_LINK']; ?>" target="_blank"></a>
+                                    <a
+                                        href="https://www.youtube.com/watch?v=klCM6Aj76VQ"
+                                        class="strip"
+                                        data-strip-caption="<?php echo $lang['WORKS_SPOTTED_DESC_EPISODE']; ?>"
+                                        data-strip-options="
+                                            youtube: {
+                                            autoplay: 0
+                                        }
+                                        "
+                                        title="<?php echo $lang['WORKS_SPOTTED_LINK']; ?>" 
+                                        target="_blank">
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -244,7 +255,7 @@
                             <h4><?php echo $lang['WORKS_IBANEZ_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/ibanez_big.jpg" class="strip" title="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>"></a>
+                                    <a href="images/works/ibanez_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>" title="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
