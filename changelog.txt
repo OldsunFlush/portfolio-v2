@@ -9,6 +9,7 @@ Changelog :
 - Optimizes responsive for large screens
 - Hides Steam Early Access section by default
 - Updates content
+- Updates assets
 
 /* ------------------------------------------
    Previous updates

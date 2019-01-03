@@ -20,6 +20,7 @@
                     <li>Optimizes responsive for large screens</li>
                     <li>Hides Steam Early Access section by default</li>
                     <li>Updates content</li>
+                    <li>Updates assets</li>
                 </ul>
             </div>
             

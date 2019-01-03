@@ -38,6 +38,7 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,400italic,700,700italic" rel="stylesheet" type="text/css">
 
 		<!-- General stylesheets -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
