@@ -183,6 +183,8 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
+# Prepros
+prepros-6.config
 
 #############
 ## Python

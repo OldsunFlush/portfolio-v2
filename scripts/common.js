@@ -78,9 +78,6 @@
             // Works filters
             this.worksFilters();
 
-            // LightGallery
-            this.lightGallery();
-
             // Reveal skills on click
             this.skillsReveal();
 
@@ -238,11 +235,6 @@
                 event.preventDefault();
                 self.elements.workSample.removeClass('hidden-work');
             });
-        },
-        lightGallery: function() {
-            var self = this;
-
-            $("[data-gallery]").lightGallery();
         },
         skillsReveal: function() {
             var self = this;
