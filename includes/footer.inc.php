@@ -1,7 +1,7 @@
 		<!-- Footer -->
 		<footer>
             <a href="#home" class="logo logo-main"><img src="images/logos/logo.svg" width="64" height="64" alt="<?php echo $lang['LOGO_ALT']; ?>"/></a>
-            <p>Copyright © 2019 - Pierre PRÉZELIN<br> <span>|</span> <a href="legalnotice.php" title="<?php echo $lang['LEGAL_NOTICE_TITLE']; ?>"><?php echo $lang['LEGAL_NOTICE']; ?></a> <span>|</span> <a href="changelog.php" title="ChangeLog">ChangeLog</a></p>
+            <p>Copyright © <span id="current-year">2019</span> - Pierre PRÉZELIN<br> <span>|</span> <a href="legalnotice.php" title="<?php echo $lang['LEGAL_NOTICE_TITLE']; ?>"><?php echo $lang['LEGAL_NOTICE']; ?></a> <span>|</span> <a href="changelog.php" title="ChangeLog">ChangeLog</a></p>
 		</footer>
 
 		<!-- Scripts -->
@@ -18,6 +18,9 @@
             ga('create', 'UA-75384335-1', 'auto');
             ga('require', 'linkid');
             ga('send', 'pageview');
+        </script>
+        <script>
+            document.getElementById("current-year").innerHTML = new Date().getFullYear();
         </script>
     </body>
 </html>
