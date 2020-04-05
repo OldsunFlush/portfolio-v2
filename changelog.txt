@@ -1,6 +1,6 @@
 Changelog :
 
-[v2.8]
+[v2.8] (05-04-20)
 - End of beta, official release
 - Adds the complete "Options" menu
 - Replaces fancybox.js by PhotoSwipe
