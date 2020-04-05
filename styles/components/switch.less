@@ -7,6 +7,15 @@
     color: #fff;
     line-height: 2.4rem;
 
+    &:hover {
+        cursor: pointer;
+
+        .icon {
+            background: rgba(@color-primary, 0.25);
+            box-shadow: 0 0 0 .1rem @color-primary;
+        }
+    }
+
     input {
         position: absolute;
         width: 1px;
@@ -34,7 +43,7 @@
         background: darken(@color-tertiary, 5%);
         background-clip: padding-box;
         border-radius: 1rem;
-        transition: background .2s;
+        transition: background .2s, box-shadow .2s;;
 
         &:hover {
             cursor: pointer;

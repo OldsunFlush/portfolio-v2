@@ -27,10 +27,10 @@ $lang['OVERLAY_TITLE'] = 'Personnalisez<br>votre expérience';
 $lang['SETTINGS_TOGGLE'] = 'Afficher les options';
 $lang['SETTINGS_TITLE'] = 'Options';
 $lang['SETTINGS_SWITCH_NIGHT_MODE'] = 'Thème sombre';
-$lang['SETTINGS_SWITCH_SECRET_PUNCHLINE'] = 'Punchline secrète /s';
+$lang['SETTINGS_SWITCH_SECRET_PUNCHLINE'] = '2010 dank meme';
 $lang['SETTINGS_SWITCH_EARLY_ACCESS'] = 'Accès anticipé (obsolète)';
 
-// Cookie
+// Cookies
 $lang['COOKIE_TEXT'] = 'En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies pour conserver la langue sélectionnée.';
 
 // Home
@@ -51,13 +51,13 @@ $lang['EARLY_ACCESS_CLOSE'] = 'Compris';
 
 // About
 $lang['ABOUT_TITLE'] = 'À propos';
-$lang['ABOUT_SUBTITLE'] = 'Vous trouverez ici plus d\'informations sur moi (l\'accès anticipé n\'est qu\'un clin d\'oeil à Steam).';
+$lang['ABOUT_SUBTITLE'] = 'Vous trouverez ici plus d\'informations sur moi.';
 
 $lang['ABOUT_HELLO'] = 'Hi.';
 $lang['ABOUT_TEXT_1'] = 'Je suis Pierre Prézelin, intégrateur et webdesigner. Je travaille actuellement à HelloAsso (Bordeaux, France).';
 $lang['ABOUT_TEXT_JOB'] = '';
 $lang['ABOUT_TEXT_2'] = 'Du design au développement, en passant par l\'audiovisuel et la communication, découvrir de nouvelles choses à propos du web et en général est ce qui me motive tous les jours. Dans mes heures perdues, je pratique la guitare, le basket, et aime jouer aux jeux vidéo entre amis ou produire de la musique. <br /><br />Vous trouvez ici plusieurs exemples de mes travaux, plus d\'informations sur mes compétences et comment me contacter ou me trouver sur les réseaux sociaux.';
-$lang['ABOUT_TEXT_3'] = 'Profitez bien de la visite, des nouvelles fonctionnalités sont ajoutées régulièrement !';
+$lang['ABOUT_TEXT_3'] = 'Bonne visite !';
 $lang['ABOUT_PORTRAIT_ALT'] = '(C\'est bien moi)';
 
 $lang['ABOUT_CV_FILE'] = 'cv-fr.pdf';
@@ -78,7 +78,10 @@ $lang['WORKS_VOXOFFICE_TITLE'] = 'VoxOffice';
 $lang['WORKS_VOXOFFICE_SUBTITLE'] = '(avec <a href="http://simon-tr.com" title="Vers le portfolio de Simon Trichereau" target="_blank">Simon Trichereau</a>)';
 $lang['WORKS_VOXOFFICE_ALT'] = 'VoxOffice';
 $lang['WORKS_VOXOFFICE_DESC'] = 'Un projet de classement de films par l\'utilisateur (avec Simon Trichereau)';
-$lang['WORKS_VOXOFFICE_LINK'] = 'Vers le site de VoxOffice (nouvelle fenêtre)';
+
+$lang['WORKS_VISUALIZER_TITLE'] = 'Visualizer';
+$lang['WORKS_VISUALIZER_ALT'] = 'Visualizer Monstercat';
+$lang['WORKS_VISUALIZER_LINK'] = 'Vers la vidéo (nouvelle fenêtre)';
 
 $lang['WORKS_AUREA_TITLE'] = 'Auréa';
 $lang['WORKS_AUREA_SUBTITLE'] = '(dans le cadre d\'un stage à <a href="http://rc2c.fr" title="Vers le site d\'RC2C" target="_blank">RC2C</a>)';
@@ -90,14 +93,9 @@ $lang['WORKS_JAB_SUBTITLE'] = '(dans le cadre d\'un stage à <a href="http://rc2
 $lang['WORKS_JAB_ALT'] = 'Armèle & Loïck (dans le cadre d\'un stage à RC2C)';
 $lang['WORKS_JAB_LINK'] = 'Vers le site des Jeunes Agriculteurs de Bretagne (nouvelle fenêtre)';
 
-$lang['WORKS_CYCLAD_TITLE'] = 'Cyclad';
-$lang['WORKS_CYCLAD_SUBTITLE'] = '(dans le cadre d\'un stage à <a href="http://rc2c.fr" title="Vers le site d\'RC2C" target="_blank">RC2C</a>)';
-$lang['WORKS_CYCLAD_ALT'] = 'Cyclad (dans le cadre d\'un stage à RC2C)';
-$lang['WORKS_CYCLAD_LINK'] = 'Vers le site de Cyclad (nouvelle fenêtre)';
-
 $lang['WORKS_CENTAURI_TITLE'] = 'Centauri Vision';
 $lang['WORKS_CENTAURI_ALT'] = 'Centauri Vision';
-$lang['WORKS_CENTAURI_DESC'] = 'Pochettes d\'album pour mon projet musical, Centauri Vision (Synthwave).';
+$lang['WORKS_CENTAURI_DESC'] = 'Pochettes d\'album pour le projet musical Centauri Vision (synthwave).';
 $lang['WORKS_CENTAURI_LINK'] = 'Écouter !';
 
 $lang['WORKS_NEWREBORN_TITLE'] = 'New Reborn';
@@ -115,24 +113,13 @@ $lang['WORKS_EVAD_SUBTITLE'] = 'EVAD (avec <a href="http://simon-tr.com" title="
 $lang['WORKS_EVAD_ALT'] = '(avec Simon Trichereau & Audrey Lecuona)';
 $lang['WORKS_EVAD_LINK'] = 'Vers le site de l\'EVAD (nouvelle fenêtre)';
 
-$lang['WORKS_LIMBO_TITLE'] = 'Site Limbo';
-$lang['WORKS_LIMBO_ALT'] = 'Refonte du site officiel du jeu vidéo Limbo';
+$lang['WORKS_LIMBO_TITLE'] = 'Limbo';
+$lang['WORKS_LIMBO_ALT'] = 'Site Limbo';
 $lang['WORKS_LIMBO_DESC'] = 'Exercice de refonte du site officiel du jeu vidéo Limbo.';
 
-$lang['WORKS_ZEN_TITLE'] = 'Planète Zen';
-$lang['WORKS_ZEN_ALT'] = 'Planète Zen';
-$lang['WORKS_ZEN_LINK'] = 'Vers le site de Planète Zen website (nouvelle fenêtre)';
-
-$lang['WORKS_CAR_ALT'] = 'Infographie';
-$lang['WORKS_CAR_TITLE'] = 'Infographie';
-$lang['WORKS_CAR_DESC'] = 'Infographie sur les statistiques du marché du véhicule électrique. Crée avec Illustrator.';
-
 $lang['WORKS_SPOTTED_TITLE'] = 'SPOTTED!';
-$lang['WORKS_SPOTTED_SUBTITLE'] = '(avec <a href="https://www.youtube.com/user/CubProduction" title="Chaîne YouTube de Quentin Barat" target="_blank">Quentin Barat</a>, <a href="https://www.linkedin.com/in/armanddeborde" title="LinkedIn d\'Armand Deborde" target="_blank">Armand Deborde</a> et <a href="https://www.linkedin.com/in/richard-epain-793696a7/en" title="LinkedIn de Richard Epain" target="_blank">Richard Epain</a>)';
-$lang['WORKS_SPOTTED_ALT'] = 'SPOTTED! Épisode 2';
-$lang['WORKS_SPOTTED_LINK'] = 'Voir l\'épisode';
-$lang['WORKS_SPOTTED_DESC'] = 'Vers le site de SPOTTED! (nouvelle fenêtre)';
-$lang['WORKS_SPOTTED_DESC_EPISODE'] = 'Épisode 2/3';
+$lang['WORKS_SPOTTED_ALT'] = 'Animation du logo SPOTTED!';
+$lang['WORKS_SPOTTED_LINK'] = 'Vers la vidéo (nouvelle fenêtre)';
 
 $lang['WORKS_IBANEZ_TITLE'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_ALT'] = 'Ibanez RG7620';
@@ -143,12 +130,12 @@ $lang['SKILLS_TITLE'] = 'Compétences';
 $lang['SKILLS_SUBTITLE'] = 'Je conserve ici tout ce que j\'apprends au fil du temps.';
 
 $lang['SKILLS_WEB'] = 'Web';
-$lang['SKILLS_WEB_1'] = 'HTML5';
-$lang['SKILLS_WEB_2'] = 'CSS3 (mobile first, OOCSS)';
-$lang['SKILLS_WEB_3'] = 'JavaScript, jQuery';
-$lang['SKILLS_WEB_4'] = 'Préprocesseurs (Sass, LESS)';
-$lang['SKILLS_WEB_5'] = 'WordPress';
-$lang['SKILLS_WEB_6'] = 'Git';
+$lang['SKILLS_WEB_1'] = 'HTML5 & CSS3';
+$lang['SKILLS_WEB_2'] = 'JavaScript (VueJS, jQuery)';
+$lang['SKILLS_WEB_3'] = 'Préprocesseurs (Sass, LESS)';
+$lang['SKILLS_WEB_4'] = 'Task runners (Grunt, Gulp)';
+$lang['SKILLS_WEB_5'] = 'Versioning (Git)';
+$lang['SKILLS_WEB_6'] = 'CMS (WordPress)';
 
 $lang['SKILLS_DESIGN'] = 'Design graphique';
 $lang['SKILLS_DESIGN_1'] = 'Sketch, Figma';
@@ -157,15 +144,14 @@ $lang['SKILLS_DESIGN_3'] = 'Illustrator';
 $lang['SKILLS_DESIGN_4'] = 'InDesign';
 
 $lang['SKILLS_AUDIOVISUAL'] = 'Audiovisuel';
-$lang['SKILLS_AUDIOVISUAL_1'] = 'DAW (Reaper, Pro Tools, FL Studio)';
+$lang['SKILLS_AUDIOVISUAL_1'] = 'DAWs (Reaper, Pro Tools, FL Studio)';
 $lang['SKILLS_AUDIOVISUAL_2'] = 'Premiere Pro';
 $lang['SKILLS_AUDIOVISUAL_3'] = 'After Effects';
-$lang['SKILLS_AUDIOVISUAL_4'] = '3DS Max';
 
 $lang['SKILLS_COM'] = 'Communication';
-$lang['SKILLS_COM_1'] = 'Référencement';
-$lang['SKILLS_COM_2'] = 'Méthodes agiles';
-$lang['SKILLS_COM_3'] = 'E-mailing';
+$lang['SKILLS_COM_1'] = 'E-mailing (MJML)';
+$lang['SKILLS_COM_2'] = 'Référencement (SEO)';
+$lang['SKILLS_COM_3'] = 'Méthodes agiles';
 
 $lang['SKILLS_LANG'] = 'Langues';
 $lang['SKILLS_LANG_1'] = 'Français (langue maternelle)';

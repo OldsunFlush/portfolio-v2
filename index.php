@@ -28,7 +28,6 @@
             </div>
         </section>
 
-
         <!-- Early Access Portfolio -->
         <section class="section-early-access is-hidden" id="early-access">
             <section>
@@ -94,8 +93,16 @@
                                 <li class="list list-item more-item">
                                     <a href="https://www.behance.net/gallery/33909780/VoxOffice" title="<?php echo $lang['WORKS_VOXOFFICE_DESC']; ?>" target="_blank"></a>
                                 </li>
+                            </ul>
+                        </div>
+                    </li><!--
+                    --><li class="list list-item list-works audiovisual">
+                        <img src="images/works/visualizer.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_VISUALIZER_ALT']; ?>">
+                        <div class="works-overlay">
+                            <h4><?php echo $lang['WORKS_VISUALIZER_TITLE']; ?></h4>
+                            <ul class="list">
                                 <li class="list list-item link-item">
-                                    <a href="http://www.voxoffice.fr/" title="<?php echo $lang['WORKS_VOXOFFICE_LINK']; ?>" target="_blank"></a>
+                                    <a href="https://vimeo.com/404136016" title="<?php echo $lang['WORKS_VISUALIZER_LINK']; ?>" target="_blank"></a>
                                 </li>
                             </ul>
                         </div>
@@ -124,18 +131,6 @@
                             </ul>
                         </div>
                     </li><!--
-                    --><li class="list list-item list-works dev">
-                        <img src="images/works/cyclad.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_CYCLAD_ALT']; ?>">
-                        <div class="works-overlay">
-                            <h4><?php echo $lang['WORKS_CYCLAD_TITLE']; ?></h4>
-                            <p><?php echo $lang['WORKS_CYCLAD_SUBTITLE']; ?></p>
-                            <ul class="list">
-                                <li class="list list-item link-item">
-                                    <a href="http://bacs-cyclad.fr" title="<?php echo $lang['WORKS_CYCLAD_LINK']; ?>" target="_blank"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li><!--
                     --><li class="list list-item list-works graphic audiovisual">
                         <img src="images/works/centauri.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_CENTAURI_ALT']; ?>">
                         <div class="works-overlay">
@@ -143,9 +138,6 @@
                             <ul class="list">
                                 <li class="list list-item more-item">
                                     <a href="images/works/centauri_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>" title="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>"></a>
-                                </li>
-                                <li class="list list-item link-item">
-                                    <a href="https://soundcloud.com/centauri-vision" title="<?php echo $lang['WORKS_CENTAURI_LINK']; ?>" target="_blank"></a>
                                 </li>
                             </ul>
                         </div>
@@ -201,50 +193,13 @@
                             </ul>
                         </div>
                     </li><!--
-                    --><li class="list list-item list-works dev webdesign">
-                        <img src="images/works/planete-zen.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_ZEN_ALT']; ?>">
-                        <div class="works-overlay">
-                            <h4><?php echo $lang['WORKS_ZEN_TITLE']; ?></h4>
-                            <ul class="list">
-                                <li class="list list-item link-item">
-                                    <a href="http://pierre-prezelin.com/src/planete-zen/" title="<?php echo $lang['WORKS_ZEN_LINK']; ?>" target="_blank"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li><!--
-                    --><li class="list list-item list-works graphic">
-                        <img src="images/works/infographic_cars.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_CAR_ALT']; ?>">
-                        <div class="works-overlay">
-                            <h4><?php echo $lang['WORKS_CAR_TITLE']; ?></h4>
-                            <ul class="list">
-                                <li class="list list-item more-item">
-                                    <a href="images/works/infographic_cars_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_CAR_DESC']; ?>" title="<?php echo $lang['WORKS_CAR_DESC']; ?>"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li><!--
-                    --><li class="list list-item list-works audiovisual dev webdesign">
-                        <img src="images/works/spotted-episode2.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_SPOTTED_ALT']; ?>">
+                    --><li class="list list-item list-works audiovisual">
+                        <img src="images/works/spotted.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_SPOTTED_ALT']; ?>">
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_SPOTTED_TITLE']; ?></h4>
-                            <p><?php echo $lang['WORKS_SPOTTED_SUBTITLE']; ?></p>
                             <ul class="list">
-                                <li class="list list-item more-item">
-                                    <a href="http://pierre-prezelin.com/src/spotted" title="<?php echo $lang['WORKS_SPOTTED_DESC']; ?>" target="_blank"></a>
-                                </li>
                                 <li class="list list-item link-item">
-                                    <a
-                                        href="https://www.youtube.com/watch?v=klCM6Aj76VQ"
-                                        class="strip"
-                                        data-strip-caption="<?php echo $lang['WORKS_SPOTTED_DESC_EPISODE']; ?>"
-                                        data-strip-options="
-                                            youtube: {
-                                            autoplay: 0
-                                        }
-                                        "
-                                        title="<?php echo $lang['WORKS_SPOTTED_LINK']; ?>" 
-                                        target="_blank">
-                                    </a>
+                                    <a href="https://vimeo.com/87037781" title="<?php echo $lang['WORKS_SPOTTED_LINK']; ?>" target="_blank"></a>
                                 </li>
                             </ul>
                         </div>
@@ -306,7 +261,6 @@
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_1']; ?></p>
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_2']; ?></p>
                             <p><?php echo $lang['SKILLS_AUDIOVISUAL_3']; ?></p>
-                            <p><?php echo $lang['SKILLS_AUDIOVISUAL_4']; ?></p>
                         </section>
                     </li>
                     <li class="list list-item list-skills">
