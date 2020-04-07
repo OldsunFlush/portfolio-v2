@@ -1,12 +1,12 @@
 		<!-- Footer -->
 		<footer>
             <a href="#home" class="logo logo-main"><img src="images/logos/logo.svg" width="64" height="64" alt="<?php echo $lang['LOGO_ALT']; ?>"/></a>
-            <p>Copyright © <span id="current-year">2019</span> - Pierre PRÉZELIN<br> <span>|</span> <a href="legalnotice.php" title="<?php echo $lang['LEGAL_NOTICE_TITLE']; ?>"><?php echo $lang['LEGAL_NOTICE']; ?></a> <span>|</span> <a href="changelog.php" title="ChangeLog">ChangeLog</a></p>
+            <p>Copyright © <span id="current-year"></span> - Pierre PRÉZELIN<br> <span>|</span> <a href="legalnotice.php" title="<?php echo $lang['LEGAL_NOTICE_TITLE']; ?>"><?php echo $lang['LEGAL_NOTICE']; ?></a> <span>|</span> <a href="changelog.php" title="ChangeLog">ChangeLog</a></p>
 		</footer>
 
 		<!-- Scripts -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"></script>
 		<script src="scripts/vendors/strip.min.js"></script>
 		<script src="scripts/common.js"></script>
         <script>
