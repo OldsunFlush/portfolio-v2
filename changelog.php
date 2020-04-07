@@ -7,7 +7,7 @@
             <div class="version">
                 <h3>[2.8]</h3>
                 <h4>
-                    <em>05-04-20</em>
+                    <em>08-04-20</em>
                 </h4>
                 <p>
                     <strong>End of beta, official release</strong>
