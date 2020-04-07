@@ -15,7 +15,7 @@
             <div class="cookie">
                 <p><?php echo $lang['COOKIE_TEXT']; ?></p>
             </div>
-            <a href="#early-access">
+            <a href="#about">
                 <span class="icon icon-scroll"></span>
             </a>
         </section>
@@ -85,13 +85,24 @@
                 </ul>
                 <ul class="list list-works-container clearfix">
                     <li class="list list-item list-works dev webdesign graphic">
+                        <img src="images/works/busante.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_BUSANTE_ALT']; ?>">
+                        <div class="works-overlay">
+                            <h4><?php echo $lang['WORKS_BUSANTE_TITLE']; ?></h4>
+                            <ul class="list">
+                                <li class="list list-item more-item">
+                                    <a href="https://www.behance.net/gallery/95009993/Busant?" title="<?php echo $lang['WORKS_BUSANTE_LINK']; ?>" target="_blank"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li><!--
+                    --><li class="list list-item list-works dev webdesign graphic">
                         <img src="images/works/voxoffice.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_VOXOFFICE_ALT']; ?>">
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_VOXOFFICE_TITLE']; ?></h4>
                             <p><?php echo $lang['WORKS_VOXOFFICE_SUBTITLE']; ?></p>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="https://www.behance.net/gallery/33909780/VoxOffice" title="<?php echo $lang['WORKS_VOXOFFICE_DESC']; ?>" target="_blank"></a>
+                                    <a href="https://www.behance.net/gallery/33909780/VoxOffice" title="<?php echo $lang['WORKS_VOXOFFICE_LINK']; ?>" target="_blank"></a>
                                 </li>
                             </ul>
                         </div>
@@ -101,8 +112,8 @@
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_VISUALIZER_TITLE']; ?></h4>
                             <ul class="list">
-                                <li class="list list-item link-item">
-                                    <a href="https://vimeo.com/404136016" title="<?php echo $lang['WORKS_VISUALIZER_LINK']; ?>" target="_blank"></a>
+                                <li class="list list-item more-item">
+                                    <a href="https://vimeo.com/404136016" class="strip" data-strip-caption="<?php echo $lang['WORKS_VISUALIZER_DESC']; ?>" title="<?php echo $lang['WORKS_LAUNCH_VIDEO']; ?>" target="_blank"></a>
                                 </li>
                             </ul>
                         </div>
@@ -137,7 +148,7 @@
                             <h4><?php echo $lang['WORKS_CENTAURI_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/centauri_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>" title="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>"></a>
+                                    <a href="images/works/centauri_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_CENTAURI_DESC']; ?>" title="<?php echo $lang['WORKS_SEE_MORE']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -148,7 +159,7 @@
                             <h4><?php echo $lang['WORKS_NEWREBORN_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/animation_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>" title="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>"></a>
+                                    <a href="images/works/animation_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_NEWREBORN_DESC']; ?>" title="<?php echo $lang['WORKS_SEE_MORE']; ?>"></a>
                                 </li>
                                 <li class="list list-item link-item">
                                     <a href="http://pierre-prezelin.com/src/new-reborn" title="<?php echo $lang['WORKS_NEWREBORN_LINK']; ?>" target="_blank"></a>
@@ -162,10 +173,7 @@
                             <h4><?php echo $lang['WORKS_VETOGEEK_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/vetogeek_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>" title="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>"></a>
-                                </li>
-                                <li class="list list-item link-item">
-                                    <a href="https://www.facebook.com/Vetogeek/?eid=ARBoadV2EVq73zGJlsSZnBHTaEM8osBBIyBmSGHOo1fsL1JJ8yR0tTodxgn6-2VGmptbS2YmqaIj9M3u&fref=tag" title="<?php echo $lang['WORKS_VETOGEEK_LINK']; ?>" target="_blank"></a>
+                                    <a href="images/works/vetogeek_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_VETOGEEK_DESC']; ?>" title="<?php echo $lang['WORKS_SEE_MORE']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -188,7 +196,7 @@
                             <h4><?php echo $lang['WORKS_LIMBO_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/limbo_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_LIMBO_DESC']; ?>" title="<?php echo $lang['WORKS_LIMBO_DESC']; ?>"></a>
+                                    <a href="images/works/limbo_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_LIMBO_DESC']; ?>" title="<?php echo $lang['WORKS_SEE_MORE']; ?>"></a>
                                 </li>
                             </ul>
                         </div>
@@ -198,8 +206,8 @@
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_SPOTTED_TITLE']; ?></h4>
                             <ul class="list">
-                                <li class="list list-item link-item">
-                                    <a href="https://vimeo.com/87037781" title="<?php echo $lang['WORKS_SPOTTED_LINK']; ?>" target="_blank"></a>
+                                <li class="list list-item more-item">
+                                    <a href="https://vimeo.com/87037781" class="strip" data-strip-caption="<?php echo $lang['WORKS_SPOTTED_DESC']; ?>" title="<?php echo $lang['WORKS_LAUNCH_VIDEO']; ?>" target="_blank"></a>
                                 </li>
                             </ul>
                         </div>
@@ -210,7 +218,7 @@
                             <h4><?php echo $lang['WORKS_IBANEZ_TITLE']; ?></h4>
                             <ul class="list">
                                 <li class="list list-item more-item">
-                                    <a href="images/works/ibanez_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>" title="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>"></a>
+                                    <a href="images/works/ibanez_big.jpg" class="strip" data-strip-caption="<?php echo $lang['WORKS_IBANEZ_DESC']; ?>" title="<?php echo $lang['WORKS_SEE_MORE']; ?>"></a>
                                 </li>
                             </ul>
                         </div>

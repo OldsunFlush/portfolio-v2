@@ -68,20 +68,27 @@ $lang['ABOUT_CV'] = 'Download my resume';
 $lang['WORKS_TITLE'] = 'Works';
 $lang['WORKS_SUBTITLE'] = 'This is the perfect place when you want to see some samples of my work.';
 
+$lang['WORKS_SEE_MORE'] = 'See more';
+$lang['WORKS_LAUNCH_VIDEO'] = 'Launch the video';
+
 $lang['WORKS_FILTERS_ALL'] = 'All';
 $lang['WORKS_FILTERS_CATEGORY_1'] = 'Front-end Development';
 $lang['WORKS_FILTERS_CATEGORY_2'] = 'Webdesign';
 $lang['WORKS_FILTERS_CATEGORY_3'] = 'Graphic Design';
 $lang['WORKS_FILTERS_CATEGORY_4'] = 'Sound, Video & FX';
 
+$lang['WORKS_BUSANTE_TITLE'] = 'Busanté';
+$lang['WORKS_BUSANTE_ALT'] = 'Busanté';
+$lang['WORKS_BUSANTE_LINK'] = 'Discover the projet on Behance (new window)';
+
 $lang['WORKS_VOXOFFICE_TITLE'] = 'VoxOffice';
 $lang['WORKS_VOXOFFICE_SUBTITLE'] = '(with <a href="http://simon-tr.com" title="To Simon Trichereau\'s website" target="_blank">Simon Trichereau</a>)';
 $lang['WORKS_VOXOFFICE_ALT'] = 'VoxOffice';
-$lang['WORKS_VOXOFFICE_DESC'] = 'A project to classify movies by the user\'s actions (with Simon Trichereau)';
+$lang['WORKS_VOXOFFICE_LINK'] = 'Discover the projet on Behance (new window)';
 
 $lang['WORKS_VISUALIZER_TITLE'] = 'Visualizer';
 $lang['WORKS_VISUALIZER_ALT'] = 'Monstercat visualizer';
-$lang['WORKS_VISUALIZER_LINK'] = 'To the video (new window)';
+$lang['WORKS_VISUALIZER_DESC'] = 'Monstercat visualizer reproduction, made with After Effects.';
 
 $lang['WORKS_AUREA_TITLE'] = 'Auréa';
 $lang['WORKS_AUREA_SUBTITLE'] = '(during an internship in <a href="http://rc2c.fr" title="To the RC2C website" target="_blank">RC2C</a>)';
@@ -118,7 +125,7 @@ $lang['WORKS_LIMBO_DESC'] = 'Redesign exercise of the Limbo game official websit
 
 $lang['WORKS_SPOTTED_TITLE'] = 'SPOTTED!';
 $lang['WORKS_SPOTTED_ALT'] = 'SPOTTED! logo animation';
-$lang['WORKS_SPOTTED_LINK'] = 'To the video (new window)';
+$lang['WORKS_SPOTTED_DESC'] = 'SPOTTED! logo animation made with After Effects, used as an intro.';
 
 $lang['WORKS_IBANEZ_TITLE'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_ALT'] = 'Ibanez RG7620';

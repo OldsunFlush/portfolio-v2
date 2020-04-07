@@ -68,20 +68,27 @@ $lang['ABOUT_CV'] = 'Télécharger mon CV';
 $lang['WORKS_TITLE'] = 'Travaux';
 $lang['WORKS_SUBTITLE'] = 'L\'endroit idéal si vous voulez quelques exemples de mes travaux.';
 
+$lang['WORKS_SEE_MORE'] = 'Agrandir';
+$lang['WORKS_LAUNCH_VIDEO'] = 'Lancer la vidéo';
+
 $lang['WORKS_FILTERS_ALL'] = 'Tous';
 $lang['WORKS_FILTERS_CATEGORY_1'] = 'Intégration & Développement Web';
 $lang['WORKS_FILTERS_CATEGORY_2'] = 'Webdesign';
 $lang['WORKS_FILTERS_CATEGORY_3'] = 'Graphisme';
 $lang['WORKS_FILTERS_CATEGORY_4'] = 'Audiovisuel';
 
+$lang['WORKS_BUSANTE_TITLE'] = 'Busanté';
+$lang['WORKS_BUSANTE_ALT'] = 'Busanté';
+$lang['WORKS_BUSANTE_LINK'] = 'Découvrir le projet sur Behance (nouvelle fenêtre)';
+
 $lang['WORKS_VOXOFFICE_TITLE'] = 'VoxOffice';
 $lang['WORKS_VOXOFFICE_SUBTITLE'] = '(avec <a href="http://simon-tr.com" title="Vers le portfolio de Simon Trichereau" target="_blank">Simon Trichereau</a>)';
 $lang['WORKS_VOXOFFICE_ALT'] = 'VoxOffice';
-$lang['WORKS_VOXOFFICE_DESC'] = 'Un projet de classement de films par l\'utilisateur (avec Simon Trichereau)';
+$lang['WORKS_VOXOFFICE_LINK'] = 'Découvrir le projet sur Behance (nouvelle fenêtre)';
 
 $lang['WORKS_VISUALIZER_TITLE'] = 'Visualizer';
 $lang['WORKS_VISUALIZER_ALT'] = 'Visualizer Monstercat';
-$lang['WORKS_VISUALIZER_LINK'] = 'Vers la vidéo (nouvelle fenêtre)';
+$lang['WORKS_VISUALIZER_DESC'] = 'Reproduction du visualizer Monstercat sous After Effects.';
 
 $lang['WORKS_AUREA_TITLE'] = 'Auréa';
 $lang['WORKS_AUREA_SUBTITLE'] = '(dans le cadre d\'un stage à <a href="http://rc2c.fr" title="Vers le site d\'RC2C" target="_blank">RC2C</a>)';
@@ -119,7 +126,7 @@ $lang['WORKS_LIMBO_DESC'] = 'Exercice de refonte du site officiel du jeu vidéo 
 
 $lang['WORKS_SPOTTED_TITLE'] = 'SPOTTED!';
 $lang['WORKS_SPOTTED_ALT'] = 'Animation du logo SPOTTED!';
-$lang['WORKS_SPOTTED_LINK'] = 'Vers la vidéo (nouvelle fenêtre)';
+$lang['WORKS_SPOTTED_DESC'] = 'Animation du logo SPOTTED! réalisée sous After Effects, utilisée comme générique.';
 
 $lang['WORKS_IBANEZ_TITLE'] = 'Ibanez RG7620';
 $lang['WORKS_IBANEZ_ALT'] = 'Ibanez RG7620';
