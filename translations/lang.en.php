@@ -77,6 +77,10 @@ $lang['WORKS_FILTERS_CATEGORY_2'] = 'Webdesign';
 $lang['WORKS_FILTERS_CATEGORY_3'] = 'Graphic Design';
 $lang['WORKS_FILTERS_CATEGORY_4'] = 'Sound, Video & FX';
 
+$lang['WORKS_PORTFOLIO_SIMON_TITLE'] = 'Simon Trichereau';
+$lang['WORKS_PORTFOLIO_SIMON_ALT'] = 'Simon Trichereau\'s Portfolio';
+$lang['WORKS_PORTFOLIO_SIMON_LINK'] = 'Discover the projet on Figma (new window)';
+
 $lang['WORKS_BUSANTE_TITLE'] = 'Busanté';
 $lang['WORKS_BUSANTE_ALT'] = 'Busanté';
 $lang['WORKS_BUSANTE_LINK'] = 'Discover the projet on Behance (new window)';

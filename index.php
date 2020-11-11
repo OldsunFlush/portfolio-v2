@@ -84,7 +84,18 @@
                     <li class="list list-item list-filters" data-category="audiovisual"><?php echo $lang['WORKS_FILTERS_CATEGORY_4']; ?></li>
                 </ul>
                 <ul class="list list-works-container clearfix">
-                    <li class="list list-item list-works dev webdesign graphic">
+                    <li class="list list-item list-works webdesign graphic">
+                        <img src="images/works/portfolio-simon-trichereau.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_PORTFOLIO_SIMON_ALT']; ?>">
+                        <div class="works-overlay">
+                            <h4><?php echo $lang['WORKS_PORTFOLIO_SIMON_TITLE']; ?></h4>
+                            <ul class="list">
+                                <li class="list list-item more-item">
+                                    <a href="https://www.figma.com/file/r4z0bmmYHEX42Wm2sEcXW0/Ressources?node-id=0%3A1" title="<?php echo $lang['WORKS_PORTFOLIO_SIMON_LINK']; ?>" target="_blank"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li><!--
+                    --><li class="list list-item list-works webdesign graphic">
                         <img src="images/works/busante.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_BUSANTE_ALT']; ?>">
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_BUSANTE_TITLE']; ?></h4>
@@ -142,7 +153,7 @@
                             </ul>
                         </div>
                     </li><!--
-                    --><li class="list list-item list-works graphic audiovisual">
+                    --><li class="list list-item list-works graphic">
                         <img src="images/works/centauri.jpg" width="550" height="550" alt="<?php echo $lang['WORKS_CENTAURI_ALT']; ?>">
                         <div class="works-overlay">
                             <h4><?php echo $lang['WORKS_CENTAURI_TITLE']; ?></h4>
